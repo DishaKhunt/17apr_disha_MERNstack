@@ -1,0 +1,27 @@
+                      Structure                           |                 Union
+--------------------------------------------------------------------------------------------------------------------------------------                                                         
+1. The keyword struct is used to declare a structure.     | 1. The keyword union is used to declare a union.                                                      
+                                                          |
+2. Individual member can be accesed at a time.            | 2. Only one member can be accesed at a time.
+                                                          |
+3. Memory is allocated as per lagest member.              | 3. Memory is allocated for each member.
+                                                          |
+4. It is used to store different data type values.        | 4. It is used for storing one at a time from different data type values.
+                                                          |
+5. syntax :                                               | 5. syntax :
+            struct name                                   |              union name
+            {                                             |              {
+              // define data member                       |                   //define data member
+                                                          |              
+            }; //defining the object                      |              };// defining the object
+                                                          |
+                                                          |
+---------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+                                                          
