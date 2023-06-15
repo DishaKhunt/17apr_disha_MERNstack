@@ -1,0 +1,17 @@
+#  What is the difference between OOP and POP?
+
+----------------------------------------------------------------------------------------------------------------------------------
+                      OOP                                  |                                 POP
+----------------------------------------------------------------------------------------------------------------------------------
+=> OOP - object orinted progarming                         |=> POP - Procedure orinted programing
+                                                           |
+=> If follows bottom-up approach.                          |=> if follows top-down approach.
+                                                           |
+=> OOP language is based upon the objects.                 |=> POP language is based upon the procedure.
+                                                           |
+=> It is more secure language.                             |=> It is less secure language.
+                                                           |
+=> It needs more memory.                                   |=> It needs very less memory.
+                                                           |
+=> Example = C, FORTRAN                                    |=> Example = C++, Java
+----------------------------------------------------------------------------------------------------------------------------------

@@ -1,0 +1,34 @@
+# What is OOP? List OOP concepts
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+OOP - Object Oriented Programming
+
+Concept:-
+
+1. Class:-
+->Class is a collection of data member(variable which was define inside the class) and member function(a function which was define inside the class)
+
+->Class is the blue print of the object
+
+2. Object:-
+->Object is a instance of the class
+
+3. Inheritance:-
+-> Reusability of class
+-> There are 5 types of Inheritance
+   1.Single level
+   2.Multiple
+   3.Multilevel
+   4.Hybried
+   5.Hirechal
+
+
+4. Encapsulation:-
+->Wrapping up the data
+
+5. Abstraction:-
+->Hide the background detail which was unnecessary for the user
+
+6. Polymorphism:-
+-> two type of Polymorphism
+   1.Overloding Polymorphism
+   2.Overriding Polymorphism
