@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Question - 10</title>
+</head>
+<body>
+    <h2>10. How can we club two or more rows or columns into a single row or column in an HTML table?</h2>
+    <hr>
+    <h2><u>Answer</u>:-</h2>
+    <p>
+        =>Two or more row or column into a single row or column in used to a <b>'rowspan'</b> and <b>'colspan'</b> attribute. <br>
+        <h3>1. Combine row:</h3>
+        => Combine row in used to 'rowspan' attribute  on a &lt;td&gt; or &lt;th&gt; element to specify the number of rows it should span. <br>
+        <b> &#x27BA; Example:-</b><br>
+         <pre>
+            &lt;table&gt;
+                &lt;tr&gt;
+                 <b> &lt;td rowspan="2"&gt;Name&lt;/td&gt;</b>
+                  &lt;td&gt;Disha&lt;/td&gt;
+                &lt;/tr&gt;
+                &lt;tr&gt;
+                  &lt;td&gt;Isha&lt;/td&gt;
+                &lt;/tr&gt;
+              &lt;/table&gt;
+         </pre>
+         <table border="1px">
+            <tr>
+              <td rowspan="2">Name</td>
+              <td>Disha</td>
+            </tr>
+            <tr>
+              <td>Isha</td>
+            </tr>
+          </table>
+          <h3>2. Combine Column:</h3>
+          => Combine Column is used to 'colspan' attribute  on a &lt;td&gt; or &lt;th&gt; element to specify the number of columns it should span. <br>
+          <b> &#x27BA; Example:-</b><br>
+          <pre>
+            &lt;table&gt;
+                &lt;tr&gt;
+                <b>  &lt;td colspan="2"&gt;Name&lt;/td&gt;</b>
+                &lt;/tr&gt;
+                &lt;tr&gt;
+                  &lt;td&gt;Disha&lt;/td&gt;</b>
+                  &lt;td&gt;Isha&lt;/td&gt;
+                &lt;/tr&gt;
+              &lt;/table&gt;
+          </pre>
+          <table border="1px">
+            <tr>
+              <td colspan="2">Name</td>
+              </tr>
+              <tr>
+              <td >Disha</td>
+              <td>isha</td>
+            </tr>
+          </table>
+
+    </p>
+    
+</body>
+</html>
