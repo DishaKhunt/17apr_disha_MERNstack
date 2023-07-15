@@ -13,5 +13,5 @@
                                                            |
 => It needs more memory.                                   |=> It needs very less memory.
                                                            |
-=> Example = C, FORTRAN                                    |=> Example = C++, Java
+=> Example =  C++, Java                                    |=> Example =  C, FORTRAN    
 ----------------------------------------------------------------------------------------------------------------------------------
