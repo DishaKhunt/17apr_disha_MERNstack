@@ -31,7 +31,7 @@ CREATE TABLE Exam
     FOREIGN KEY(RollNo) REFERENCES Student(RollNo) 
 );
 
-INSERT INTO Exam (RollNo , S_code , Marks , P_code)VALUE 
+INSERT INTO Exam (RollNo , S_code , Marks , P_code)VALUES 
 ('1', 'CS11', '50', 'CS'),
 ('1', 'CS12', '60', 'CS'),
 ('2', 'EC101', '66', 'EC'),
