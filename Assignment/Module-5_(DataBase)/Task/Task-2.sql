@@ -9,7 +9,7 @@ CREATE TABLE Info
     Age int(5)    
 );
 
-INSERT INTO Info (FirstName , LastName , Address , City , Age )VALUE 
+INSERT INTO Info (FirstName , LastName , Address , City , Age )VALUES 
 ('Mickey' , 'Mouse' , '123Fantasy Way' , 'Ahaheim' , '73'),
 ('Bat' , 'Man' , '321Cavern Ave' , 'gotham' , '54'),
 ('Wonder' , 'Women' , '987Truth Way' , 'Paradise' , '39'),
