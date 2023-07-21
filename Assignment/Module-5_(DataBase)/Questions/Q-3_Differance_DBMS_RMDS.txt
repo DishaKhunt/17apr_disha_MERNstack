@@ -1,0 +1,15 @@
+3. What is Difference between DBMS and RDBMS?
+Answer:-
+
+--------------------------------------------------------------------------------------------------------------------------------
+                        DBMS                                |                         RDBMs
+--------------------------------------------------------------------------------------------------------------------------------
+                                                            |
+=> DBMS - DataBase Managment System                         | => RBDMS - Relational Database Management System
+=> DBMS stores data as file.                                | => RDBMS stores data in tabular form.
+=> one data elements can be accessed at the same time.      | => Multiple data elements can be accessed at the same time.
+=> Normalization is not present.                            | => Normalization is  present.
+=> Security is less.                                        | => Security is more.
+=> Data redundancy is common in this model.                 | => Keys and indexes do not allow Data redundancy.
+                                                            |
+--------------------------------------------------------------------------------------------------------------------------------
