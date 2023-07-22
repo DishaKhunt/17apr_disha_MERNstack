@@ -1,7 +1,0 @@
-6. What is DDL Interpreter?
-Answer:-
-    => DDL - Data Defination Language
-    => This language in the use the command is CREATE , ALTER and DROP.
-    => CREATE :- Creates a new table, a view of a table, or other object in database
-    => ALTER :- Modifies an existing database object, such as a table.
-    => DROP :- Deletes an entire table, a view of a table or other object in the database

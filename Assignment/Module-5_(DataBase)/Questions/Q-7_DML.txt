@@ -1,9 +1,0 @@
-7. What is DML Compiler in SQL?
-Answer :-
-    => DML - Data Manipulation Language
-    => DML compiler is part of the database management system 
-    => DML statment are used to retrive, modify, insert and delet data within a database.
-    => DML compiler handale the command are INSERT, UPDATE, DELETE
-       INSERT - Creates a record
-       UPDATE - Modifies records
-       DELETE - Deletes records
