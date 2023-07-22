@@ -1,0 +1,8 @@
+1. What do you understand By Database
+Answer:-
+    => Database is a callection of  data.That is store and managed in the system.
+    => Databases provide the store, retrieve, update, and delete data using a database management system (DBMS). 
+    => DBMS = Data + management
+    => Database is a collection of inter-related data and Management System is a set of programs to store and retrieve those data.
+    => Database systems are basically developed for large amount of data.
+    
