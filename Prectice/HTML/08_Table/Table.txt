@@ -1,0 +1,23 @@
+<table></table> 
+- Use to create the table
+
+<caption></caption>
+-Use to caption(title) of the table
+
+<tr></tr>
+- To generate the table row
+
+<th></th>
+- Table head
+
+<td></td>
+- Table data
+
+<thead></thead>
+- The header of a table
+
+<tbody></tbody>
+- The body(content) of the table
+
+<tfoot></tfoot>
+-The footer of the table

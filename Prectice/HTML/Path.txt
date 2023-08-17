@@ -1,0 +1,10 @@
+Path:-
+
+Locate to the file
+
+types:-
+    1.Absolute path:-
+    ->Full path
+
+    2.Relative/system  path:-
+    ->Sort path 
