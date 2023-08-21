@@ -1,0 +1,75 @@
+.d1{
+    border: 3px solid ;
+    margin: 20px;
+    background-color: rgb(235, 216, 216);
+    padding-bottom: 20px;
+}
+#p1{
+    font-size: 20px;
+    padding-left: 200px;
+    padding-right: 100px;
+    color: rgb(77, 5, 5);
+}
+.h{
+    text-align: center;
+    color: rgb(235, 216, 216);
+    background-color: rgb(77, 5, 5); 
+    font-size: 40px;
+}
+#d{
+    height: 120px;
+    width: 900px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin: auto;
+    border: 5px solid rgb(63, 6, 6);
+    font-size: 20px;
+    padding: 5px;
+    color: white;
+    text-align: center;
+}
+#d:hover{
+    outline: rgb(63, 6, 6);
+    height: 150px;
+    width: 1100px;
+
+}
+#d1{
+    height: 200px;
+    width: 1200px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin: auto;
+    border: 5px solid rgb(63, 6, 6);
+    font-size: 20px;
+    padding: 5px;
+    color: white;
+    text-align: center;
+}
+
+.c1{
+    background-color: darkred;
+}
+.c2{
+    background-color: #ff0000;
+}
+.c3{
+    background-color: rgb(143, 31, 31);
+}
+.c4{
+    background-color: hsl(0, 63%, 57%);
+}
+.c5{
+  
+    background-color: rgba(59, 4, 4, 0.8);
+}
+.c6{
+    
+    background-color: hsla(0, 52%, 39%, 0.5);
+}
+.image1{
+    background-image: url(../../Images/background.png);
+}
+.image2{
+    background-image: url(../../Images/night.jpg);
+}

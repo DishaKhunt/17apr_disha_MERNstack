@@ -1,0 +1,31 @@
+.d1{
+    border: 3px solid ;
+    margin: 20px;
+    background-color: rgb(210, 230, 237);
+    padding-bottom: 20px;
+}
+#p1{
+    font-size: 20px;
+    padding-left: 200px;
+    padding-right: 100px;
+    color: rgb(1, 1, 55);
+}
+h1{
+    text-align: center;
+    color: lightblue;
+    background-color: rgb(1, 1, 67); 
+    font-size: 40px;
+}
+#p{
+    text-align: center;
+    font-size: 40px;
+}
+.p1{
+    color: red;
+}
+.p2{
+    color: #f08;
+}
+.p3{
+    color: rgb(0, 170, 45);
+}

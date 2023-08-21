@@ -1,0 +1,44 @@
+.d1{
+    border: 3px solid black;
+    margin: 20px;
+    background-color: rgb(251, 239, 239);
+    padding-bottom: 20px aut;
+}
+#p{
+    font-size: 20px;
+    /* padding-left: 200px;
+    padding-right: 200px; */
+    padding: 10px 500px;
+    color: rgb(57, 4, 4);
+}
+.h{
+    text-align: center;
+    color: rgb(251, 239, 239);
+    background-color: rgb(57, 4, 4); 
+    font-size: 40px;
+}
+h1{
+    text-align: center;
+    color: rgb(57, 4, 4);
+}
+.d2{
+    background-image: url('../../Images/colorCircle.png');
+    width: 500px;
+    height: 500px;
+    margin: 10px auto;
+    border: 1px solid black;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.sepia1{
+    filter: sepia(0%);
+}
+.sepia2{
+    filter: sepia(30%);
+}
+.sepia3{
+    filter: sepia(60%);
+}
+.sepia4{
+    filter: sepia(100%);
+}

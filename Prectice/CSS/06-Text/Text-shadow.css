@@ -1,0 +1,58 @@
+.d1{
+    border: 3px solid ;
+    margin: 20px;
+    background-color: rgb(210, 230, 237);
+    padding-bottom: 20px;
+}
+#p{
+    font-size: 20px;
+    padding-left: 200px;
+    padding-right: 100px;
+    color: rgb(1, 1, 55);
+}
+.h{
+    text-align: center;
+    color: lightblue;
+    background-color: rgb(1, 1, 67); 
+    font-size: 40px;
+}
+#d:hover{
+    height: 200px;
+    width: 1000px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin: auto;
+    border: 5px solid rgb(36, 38, 163);
+   text-align: justify;
+    font-size: 20px;
+    padding: 5px;
+    
+}
+.h1, .h2, .h3, .h4, .h5, .h6{
+    text-align: center;
+}
+.h1{
+    text-shadow: 2px 2px;
+}
+.h2{
+    text-shadow: 2px 2px red;
+}
+.h3{
+    text-shadow: 2px 2px 5px red;
+}
+.h4{
+    text-shadow: 2px 2px 4px #000000;
+    color: white;
+}
+.h5{
+    text-shadow: 0 0 3px #ff0000;
+}
+.h6{
+    text-shadow: 0 0 3px #ff0000, 0 0 5px #0000ff;
+}
+
+#p1{
+    text-align: center;
+    color: rgb(1, 1, 67);
+    font-size: 25px;
+}

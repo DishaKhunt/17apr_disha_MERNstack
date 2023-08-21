@@ -1,0 +1,54 @@
+.d1{
+    border: 3px solid ;
+    margin: 20px;
+    background-color: rgb(210, 230, 237);
+    padding-bottom: 20px;
+}
+#p1{
+    font-size: 20px;
+    padding-left: 200px;
+    padding-right: 100px;
+    color: rgb(1, 1, 55);
+}
+.h{
+    text-align: center;
+    color: lightblue;
+    background-color: rgb(1, 1, 67); 
+    font-size: 40px;
+}
+#d:hover{
+    height: 150px;
+    width: 450px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 100px;
+    margin-left: 500px;
+    border: 5px solid rgb(36, 38, 163);
+    text-align: center;
+    font-size: 40px;
+    padding: 10px;
+}
+.h1{
+    font-size: 30px;
+    text-align: center;
+   
+    color: rgb(16, 16, 111);
+}
+.p1,.p2,.p3{
+    font-size: 25px;
+    text-align: center;
+    text-shadow: 2px 2px 4px #000000;
+    color: red;
+}
+.p1{
+    text-transform: uppercase;
+}
+.p2{
+    text-transform: lowercase;
+}
+.p3{
+    text-transform: capitalize;
+}
+b{
+    text-decoration: underline red wavy;
+}

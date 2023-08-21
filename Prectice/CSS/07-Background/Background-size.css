@@ -1,0 +1,54 @@
+.d1{
+    border: 3px solid black;
+    margin: 20px;
+    background-color: rgb(237, 237, 243);
+    padding-bottom: 20px;
+}
+#p{
+    font-size: 20px;
+    padding-left: 200px;
+    padding-right: 100px;
+    color: rgb(6, 6, 95);
+}
+.h{
+    text-align: center;
+    color: rgb(219, 219, 231);
+    background-color: rgb(16, 16, 68); 
+    font-size: 40px;
+}
+span{
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.d2{
+    width: 700px;
+    height: 500px;
+    border: 5px solid black;
+    margin: 40px auto;
+    padding: 15px;
+    text-shadow: 2px 2px 3px rgb(246, 176, 91);
+    background-image: url('../../Images/attachment.jfif');
+    background-repeat: no-repeat;
+  
+}
+
+h2{
+    text-align: center;
+    color: rgb(6, 6, 95);
+    font-size: 30px;
+}
+.size1{
+    background-size: auto;
+}
+.size2{
+    background-size: 500px;
+}
+.size3{
+    background-size: cover;
+}
+.size4{
+    background-size: contain;
+}
+.size5{
+    background-size: 50%;
+}

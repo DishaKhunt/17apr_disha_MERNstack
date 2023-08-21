@@ -1,0 +1,59 @@
+.d1{
+    border: 3px solid black;
+    margin: 20px;
+    background-color: rgb(251, 239, 239);
+    padding-bottom: 20px;
+}
+#p{
+    font-size: 20px;
+    /* padding-left: 200px;
+    padding-right: 200px; */
+    padding: 10px 200px;
+    color: rgb(57, 4, 4);
+}
+.h{
+    text-align: center;
+    color: rgb(251, 239, 239);
+    background-color: rgb(57, 4, 4); 
+    font-size: 40px;
+}
+span{
+    padding:5px 100px;
+    /* text-shadow: 2px 2px 3px rgb(219, 159, 159); */
+}
+span:hover{
+    font-size: 25px;
+}
+h1{
+    text-align: center;
+    color: rgb(57, 4, 4);
+    text-shadow: 2px 2px 4px rgb(241, 170, 198);
+}
+table, th, tr,td{
+    border: 2px solid black;
+    border-collapse: collapse;
+    color: rgb(57, 4, 4);
+    font-size: 20px;
+}
+table th{
+    font-size: 25px;
+}
+.value{
+   font-weight: bold;
+   text-align: center;
+}
+tr:nth-child(even){
+    background-color: rgb(223, 208, 208);
+}
+table tr td a{
+    text-decoration-line: none;
+    background-color: rgb(57, 4, 4);
+    color: rgb(230, 204, 204);
+    border-radius: 5px;
+    padding: 7px;
+    text-align: center;
+    font-weight: bold;
+}
+a:hover{
+    padding: 10px;
+}

@@ -1,0 +1,67 @@
+.d1{
+    border: 3px solid ;
+    margin: 20px;
+    background-color: rgb(210, 230, 237);
+    padding-bottom: 20px;
+}
+#p1{
+    font-size: 20px;
+    padding-left: 200px;
+    padding-right: 100px;
+    color: rgb(1, 1, 55);
+}
+.h{
+    text-align: center;
+    color: lightblue;
+    background-color: rgb(1, 1, 67); 
+    font-size: 40px;
+}
+#d:hover{
+    height: 200px;
+    width: 1000px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin: auto;
+    border: 5px solid rgb(36, 38, 163);
+   text-align: justify;
+    font-size: 20px;
+    padding: 5px;
+    
+}
+
+.h1{
+    font-size: 30px;
+    text-align: center;
+   
+    color: rgb(16, 16, 111);
+}
+.i1{
+    text-indent: 50px;
+}
+.s1{
+    letter-spacing: 5px;
+}
+.s2{
+    letter-spacing: -2px;
+}
+.height1{
+    line-height: 0.8;
+}
+.height{
+    line-height: 1.8;
+}
+.word1{
+    word-spacing: 10px;
+}
+.word2{
+    word-spacing: -2px;
+}
+.white1{
+    white-space: nowrap;
+}
+.white2{
+    white-space: normal;
+}
+..white3{
+    white-space: pre;
+}

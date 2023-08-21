@@ -1,0 +1,64 @@
+.d1{
+    border: 3px solid ;
+    margin: 20px;
+    background-color: rgb(247, 240, 240);
+    padding-bottom: 20px;
+}
+#p{
+    font-size: 20px;
+    padding-left: 200px;
+    padding-right: 100px;
+    color: rgb(77, 5, 5);
+}
+.h{
+    text-align: center;
+    color: rgb(235, 216, 216);
+    background-color: rgb(77, 5, 5); 
+    font-size: 40px;
+}
+span{
+    padding-left: 100px;
+    padding-right: 100px;
+}
+#d1{
+    height: 200px;
+    width: 200px;
+    margin: 40px auto;
+    padding: 5px;
+}
+#d1:hover{
+    height: 250px;
+    width: 250px;
+}
+.h1{
+    text-align: center;
+    color: rgb(77, 5, 5);
+}
+#d2{
+    display: flex;
+    border: 3px solid rgb(77, 5, 5);
+    margin: 20px auto;
+    height: 300px;
+    width: 700px;
+}
+.repconic1{
+    display: flex;
+    background-image: repeating-conic-gradient(red 10%, yellow 20%);
+    border-radius: 50%;
+}
+.repconic2{
+    display: flex;
+    background-image: repeating-conic-gradient(red 5%, yellow 10%, green 15%, blue 20%);
+    border-radius: 50%;
+}
+
+.repconic3{
+    display: flex;
+    background-image: repeating-conic-gradient(red 0deg 30deg, yellow 30deg 60deg, blue 60deg 90deg) ;
+    border-radius: 50%;
+}
+.repconic4{
+    display: flex;
+    background-image: repeating-conic-gradient(red 0deg 36deg, yellow 36deg 72deg, green 72deg 108deg, blue 108deg 144deg, violet 144deg 180deg ) ;
+    border-radius: 50%;
+}

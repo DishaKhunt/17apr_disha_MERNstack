@@ -1,0 +1,49 @@
+.d1{
+    border: 3px solid ;
+    margin: 20px;
+    background-color: rgb(241, 226, 226);
+    padding-bottom: 20px;
+}
+#p{
+    font-size: 20px;
+    padding-left: 200px;
+    padding-right: 100px;
+    color: rgb(77, 5, 5);
+}
+.h{
+    text-align: center;
+    color: rgb(235, 216, 216);
+    background-color: rgb(77, 5, 5); 
+    font-size: 40px;
+}
+#d1{
+    display: flex;
+    border: 3px solid rgb(77, 5, 5);
+    margin: 20px auto;
+    height: 400px;
+    width: 800px;
+  
+}
+
+#d2{
+    height: 300px;
+    width: 300px;
+    margin: 40px auto;
+    font-size: 20px;
+    padding: 10px;
+    color: rgb(77, 5, 5);
+    text-align: center;
+}
+#d2:hover{
+    height: 350px;
+    width: 350px;
+    margin: 20px auto;
+}
+.repredial1{
+    display: flex;
+    background-image: repeating-radial-gradient(red, yellow 10%, green 15%);
+}
+.repredial2{
+    display: flex;
+    background-image: repeating-radial-gradient(white,black 10%);
+}

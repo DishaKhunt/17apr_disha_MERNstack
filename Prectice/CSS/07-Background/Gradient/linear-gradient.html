@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="linear-gradient.css" type="text/css">
+    <title>linear-gradient</title>
+</head>
+<body>
+    <div class="d1">
+        <h1 class="h">Liner-Gradiant</h1>
+        <p id="p">
+            => To create a linear gradient you must define at least two color stops.  <br>
+            => Color stops are the colors you want to render smooth transitions among. <br>
+            => You can also set a starting point and a direction (or an angle) along with the gradient effect. <br>
+
+            => <b>Syntax :- <br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;background-image: linear-gradient(direction, color-stop1, color-stop2, ...); <br></b>
+        </p>
+        <hr>
+       
+         <h2 class="h1">&#10022; Direction - Top to Bottom (this is default)</h2>
+        <p id="p">
+        =>The following example shows a linear gradient that starts at the top.
+        </p>
+         <div id="d1" class="linear1">top to bottom</h2></div>
+         <hr>
+         
+         <h2>&#10022; Direction - Left to Right</h2>
+         <p id="p">
+              =>  The following example shows a linear gradient that starts from the left.
+        </p>
+        <div class="linear2" id="d1">left to right</div>
+        <div class="linear21" id="d1">right to left</div>
+        <hr>
+
+        <h2>&#10022; Direction - Diagonal</h2>
+        <p id="p">
+            => You can make a gradient diagonally by specifying both the horizontal and vertical starting positions. <br>
+            => The following example shows a linear gradient that starts at top left (and goes to bottom right).</p>
+        <div class="linear3" id="d1">top left to bottom right</div>
+        <hr>
+        
+        <h2 class="h1">&#10022;  Using Angles</h2>
+         <p id="p">
+            => If you want more control over the direction of the gradient, you can define an angle, instead of the predefined directions (to bottom, to top, to right, to left, to bottom right, etc.). <br>
+            => A value of 0deg is equivalent to "to top". A value of 90deg is equivalent to "to right". A value of 180deg is equivalent to "to bottom".
+            <br>
+          => <b>Syntax:- <br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;background-image: linear-gradient(angle, color-stop1, color-stop2);</b>
+           </p> 
+        <div class="linear4" id="d1">0deg</div>
+
+        <div class="linear5" id="d1">90deg</div>
+        
+        <div class="linear6" id="d1">180deg</div>
+       
+        <div class="linear7" id="d1">-90deg</div>
+        <hr>
+
+        <h2 class="h1">&#10022; Using Multiple Color Stops</h2>
+        <h2 class="h2">&#10022; 3 Color Stops (evenly spaced):</h2>
+        <div class="linear8" id="d1"></div>
+
+        <h2 class="h2">&#10022; 7 Color Stops (evenly spaced):</h2>
+        <div class="linear9" id="d1"></div>
+
+        <h2 class="h2">&#10022; 3 Color Stops (not evenly spaced):</h2>
+        <div class="linear10" id="d1"></div>
+    </div>
+
+</body>
+</html>

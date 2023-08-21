@@ -1,0 +1,83 @@
+.d1{
+    border: 3px solid ;
+    margin: 20px;
+    background-color: rgb(235, 216, 216);
+    padding-bottom: 20px;
+}
+#p{
+    font-size: 20px;
+    padding-left: 200px;
+    padding-right: 100px;
+    color: rgb(77, 5, 5);
+}
+.h{
+    text-align: center;
+    color: rgb(235, 216, 216);
+    background-color: rgb(77, 5, 5); 
+    font-size: 40px;
+}
+span{
+    padding-left: 100px;
+    padding-right: 100px;
+}
+#d1{
+    height: 200px;
+    width: 200px;
+    margin: 40px auto;
+    padding: 5px;
+}
+#d1:hover{
+    height: 250px;
+    width: 250px;
+}
+.conic1{
+    background-image: conic-gradient( red , yellow , green);
+}
+.conic2{
+    background-image: conic-gradient( red , yellow , green, blue , black);
+}
+.conic3{
+    background-image: conic-gradient(red 45deg, yellow 90deg, green 210deg);
+}
+.conic4{
+    display: flex;
+    background-image: conic-gradient(red, yellow, green, blue, black);
+    border-radius: 50%;
+}
+.conic5{
+    display: flex;
+    background-image: conic-gradient(red 0deg, red 90deg, yellow 90deg, yellow 180deg, green 180deg, green 270deg, blue 270deg);
+    border-radius: 50%;
+}
+.conic6{
+     display: flex;
+    background-image: conic-gradient(from 90deg, red, yellow, green);
+    border-radius: 50%;
+   
+}
+.conic7{
+     display: flex;
+    background-image: conic-gradient(from 180deg, red, yellow, green);
+    border-radius: 50%;
+}
+.conic8{
+    display: flex;
+    background-image: conic-gradient(at 60% 45%, red, yellow, green);
+    border-radius: 50%;
+}
+.conic9{
+    display: flex;
+    background-image: conic-gradient(at 45% 70%, red, yellow, green);
+    border-radius: 50%;
+}
+#d2{
+    display: flex;
+    border: 3px solid rgb(77, 5, 5);
+    margin: 20px auto;
+    height: 300px;
+    width: 700px;
+}
+.h1{
+    text-align: center;
+    color: rgb(77, 5, 5);
+}

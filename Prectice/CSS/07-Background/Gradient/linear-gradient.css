@@ -1,0 +1,74 @@
+.d1{
+    border: 3px solid ;
+    margin: 20px;
+    background-color: rgb(247, 239, 239);
+    padding-bottom: 20px;
+}
+#p{
+    font-size: 20px;
+    padding-left: 200px;
+    padding-right: 100px;
+    color: rgb(77, 5, 5);
+}
+.h{
+    text-align: center;
+    color: rgb(241, 240, 240);
+    background-color: rgb(77, 5, 5); 
+    font-size: 40px;
+    font-weight: 500px;
+}
+#d1{
+    height: 200px;
+    width: 700px;
+    margin: 40px auto;
+    border: 5px solid rgb(63, 6, 6);
+    font-size: 40px;
+    padding: 5px;
+    color: rgb(77, 5, 5);
+    text-align: center;
+}
+#d1:hover{
+    height: 220px;
+    width: 800px;
+}
+.h1{
+    padding-left: 200px;
+    padding-right: 100px;
+    color: rgb(77, 5, 5);
+}
+.h2{
+    text-align: center;
+}
+.linear1{
+    background-image: linear-gradient(red, orange, yellow);
+}
+.linear2{
+    background-image: linear-gradient(to right, red, orange, yellow);
+}
+.linear21{
+    background-image: linear-gradient(to left, red, orange, yellow);
+}
+.linear3{
+    background-image: linear-gradient(to bottom right, red, orange, yellow);
+}
+.linear4{
+    background-image: linear-gradient(0deg,   lightgreen, forestgreen, green, darkgreen );
+}
+.linear5{
+    background-image: linear-gradient(90deg,   lightgreen, forestgreen, green, darkgreen );
+}
+.linear6{
+    background-image: linear-gradient(180deg,   lightgreen, forestgreen, green, darkgreen );
+}
+.linear7{
+    background-image: linear-gradient(-90deg,  lightgreen,forestgreen, green, darkgreen );
+}
+.linear8{
+    background-image: linear-gradient(red, yellow, green);
+}
+.linear9{
+    background-image: linear-gradient(red, orange, yellow, green, blue, indigo, violet);
+}
+.linear10{
+    background-image: linear-gradient(red 10%, green 85%, blue 90%);
+}

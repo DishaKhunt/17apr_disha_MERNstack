@@ -1,0 +1,58 @@
+.d1{
+    border: 3px solid ;
+    margin: 20px;
+    background-color: rgb(235, 216, 216);
+    padding-bottom: 20px;
+}
+#p{
+    font-size: 20px;
+    padding-left: 200px;
+    padding-right: 100px;
+    color: rgb(77, 5, 5);
+}
+.h{
+    text-align: center;
+    color: rgb(235, 216, 216);
+    background-color: rgb(77, 5, 5); 
+    font-size: 40px;
+}
+
+#d2{
+    height: 400px;
+    width: 400px;
+    margin: 10px auto;
+    border: 5px solid rgb(63, 6, 6);
+    font-size: 20px;
+    padding: 10px;
+    color: rgb(77, 5, 5);
+    text-align: center;
+}
+.redial1{
+    background: radial-gradient( lightyellow, yellow, orange, darkorange, red, darkred);
+}
+.redial2, .redial3, .redial4, .redial5{
+    height: 350px;
+    width: 350px;
+    background-color: red; /* For browsers that do not support gradients */
+    margin: 50px auto;
+
+}
+.redial2 {
+    background-image: radial-gradient(closest-side at 60% 55%, red, yellow, black);
+  }
+  
+.redial3 {
+    background-image: radial-gradient(farthest-side at 60% 55%, red, yellow, black);
+  }
+  
+.redial4 {
+    background-image: radial-gradient(closest-corner at 60% 55%, red, yellow, black);
+  }
+  
+.redial5{
+    background-image: radial-gradient(farthest-corner at 60% 55%, red, yellow, black);
+  }
+  .h2{
+    text-align: center;
+    color: rgb(63, 6, 6);
+  }

@@ -1,0 +1,82 @@
+.d1{
+    border: 3px solid black;
+    margin: 20px;
+    background-color: rgb(237, 237, 243);
+    padding-bottom: 20px;
+}
+#p{
+    font-size: 20px;
+    padding-left: 200px;
+    padding-right: 100px;
+    color: rgb(6, 6, 95);
+}
+.h{
+    text-align: center;
+    color: rgb(219, 219, 231);
+    background-color: rgb(16, 16, 68); 
+    font-size: 40px;
+}
+span{
+    padding-left: 100px;
+    padding-right: 100px;
+}
+h1{
+    text-align: center;
+    color: rgb(16, 16, 68);
+}
+
+table, th, tr,td{
+    border: 2px solid black;
+    border-collapse: collapse;
+    color: rgb(16, 16, 68);
+   
+    font-size: 20px;
+}
+table{
+    margin: 20px 300px;
+}
+.value{
+   font-weight: bold;
+   text-align: center;
+} 
+.d2{
+    width: 600px;
+    height: 400px;
+    border: 5px solid black;
+    margin: 40px auto;
+    padding: 15px;
+    font-size: 30px;
+    text-align: center;
+    text-shadow: 2px 2px 3px rgb(246, 176, 91);
+    background-image: url('../../Images/background-images.png');
+    background-repeat: no-repeat;
+  
+}
+.d2:hover{
+    width: 700px;
+    height: 450px;
+   
+}
+h2{
+    text-align: center;
+    color: rgb(6, 6, 95);
+    font-size: 30px;
+}
+.repeat1{
+    background-repeat: repeat;
+}
+.repeat2{
+    background-repeat: repeat-x;
+}
+.repeat3{
+    background-repeat: repeat-y;
+}
+.repeat4{
+    background-repeat: no-repeat;
+}
+.repeat5{
+    background-repeat: space;
+}
+.repeat6{
+    background-repeat: round;
+}

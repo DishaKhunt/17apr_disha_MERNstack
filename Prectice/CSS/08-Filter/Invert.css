@@ -1,0 +1,62 @@
+.d1{
+    border: 3px solid black;
+    margin: 20px;
+    background-color: rgb(251, 239, 239);
+    padding-bottom: 20px aut;
+}
+#p{
+    font-size: 20px;
+    /* padding-left: 200px;
+    padding-right: 200px; */
+    padding: 10px 500px;
+    color: rgb(57, 4, 4);
+}
+.h{
+    text-align: center;
+    color: rgb(251, 239, 239);
+    background-color: rgb(57, 4, 4); 
+    font-size: 40px;
+}
+h1{
+    text-align: center;
+    color: rgb(57, 4, 4);
+}
+#d{
+    width: 1200px;
+    height: 600px;
+    margin: 20px auto;
+    display: flex;
+    border: 2px solid black;
+}
+.d2{
+    background-image: url('../../Images/colorCircle.png');
+    width: 500px;
+    height: 500px;
+    margin: 50px auto;
+    border: 1px solid black;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+}
+.d3{
+    background-image: url('../../Images/Brightness.jpg');
+    width: 500px;
+    height: 500px;
+    margin: 50px auto;
+    border: 1px solid black;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+}
+.invert1{
+    filter: invert(0%);
+}
+.invert2{
+    filter: invert(30%);
+}
+.invert3{
+    filter: invert(50%);
+}
+.invert4{
+    filter: invert(100%);
+}

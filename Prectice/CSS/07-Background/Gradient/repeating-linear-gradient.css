@@ -1,0 +1,52 @@
+.d1{
+    border: 3px solid ;
+    margin: 20px;
+    background-color: rgb(240, 232, 232);
+    padding-bottom: 20px;
+}
+#p{
+    font-size: 20px;
+    padding-left: 200px;
+    padding-right: 100px;
+    color: rgb(77, 5, 5);
+}
+.h{
+    text-align: center;
+    color: rgb(241, 240, 240);
+    background-color: rgb(77, 5, 5); 
+    font-size: 40px;
+    font-weight: 500px;
+}
+#d1{
+    height: 200px;
+    width: 700px;
+    margin: 40px auto;
+    font-size: 40px;
+    padding: 5px;
+    color: rgb(77, 5, 5);
+    text-align: center;
+}
+#d1:hover{
+    height: 220px;
+    width: 800px;
+}
+.h1{
+   text-align: center;
+    color: rgb(77, 5, 5);
+}
+
+.replinear1{
+    background-image: repeating-linear-gradient(red, yellow 10%, green 20%);
+}
+.replinear2{
+    background-image: repeating-linear-gradient(45deg,red,yellow 7%,green 10%);
+}
+.replinear3{
+    background-image: repeating-linear-gradient(190deg, red, yellow 5% , green 10%);
+}
+.replinear4{
+    background-image: repeating-linear-gradient(90deg, pink, blue 5% , red 10%);
+}
+.replinear5{
+    background-image: repeating-linear-gradient(45deg, green 0px, green 10px, green 10px, orange 10px, orange 20px);
+}

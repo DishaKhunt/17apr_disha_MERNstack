@@ -1,0 +1,27 @@
+.d1{
+    border: 3px solid black;
+    margin: 20px;
+    background-color: rgb(237, 237, 243);
+    padding-bottom: 20px;
+    background-image: url(../../../Images/attachment.jfif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+#p{
+    font-size: 20px;
+    padding-left: 100px;
+    padding-right: 100px;
+    color: rgb(242, 233, 233);
+    text-shadow: 2px 2px 4px black;
+    text-align: justify;
+}
+.h{
+    text-align: center;
+    color: rgb(219, 219, 231);
+    background-color: rgb(16, 16, 68); 
+    font-size: 40px;
+}
+.local{
+    background-attachment: local;
+}

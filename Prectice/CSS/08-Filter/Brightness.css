@@ -1,0 +1,43 @@
+.d1{
+    border: 3px solid black;
+    margin: 20px;
+    background-color: rgb(251, 239, 239);
+    padding-bottom: 20px aut;
+}
+#p{
+    font-size: 20px;
+    /* padding-left: 200px;
+    padding-right: 200px; */
+    padding: 10px 500px;
+    color: rgb(57, 4, 4);
+}
+.h{
+    text-align: center;
+    color: rgb(251, 239, 239);
+    background-color: rgb(57, 4, 4); 
+    font-size: 40px;
+}
+h1{
+    text-align: center;
+    color: rgb(57, 4, 4);
+}
+img{
+    text-align: center;
+    margin: 20px 25%;
+    
+}
+.img:hover{
+    border: 15px groove green;
+}
+.brightness1{
+    filter: brightness(100%);
+}
+.brightness2{
+    filter: brightness(0%);
+}
+.brightness3{
+    filter: brightness(50%);
+}
+.brightness4{
+    filter: brightness(200%);
+}

@@ -1,0 +1,66 @@
+.d1{
+    border: 3px solid black;
+    margin: 20px;
+    background-color: rgb(221, 221, 232);
+    padding-bottom: 20px;
+}
+#p{
+    font-size: 20px;
+    padding-left: 200px;
+    padding-right: 100px;
+    color: rgb(6, 6, 95);
+}
+.h{
+    text-align: center;
+    color: rgb(184, 184, 211);
+    background-color: rgb(16, 16, 68); 
+    font-size: 40px;
+}
+h1{
+    text-align: center;
+    color: rgb(16, 16, 68);
+}
+span{
+    padding-left: 100px;
+    padding-right: 100px;
+}
+table, th, tr,td{
+    border: 2px solid black;
+    border-collapse: collapse;
+    color: rgb(16, 16, 68);
+    text-align: center;
+    font-size: 20px;
+}
+.value{
+   font-weight: bold;
+} 
+.d2{
+    width: 700px;
+    height: 200px;
+    border: 10px dotted black;
+    margin: 40px auto;
+    background-color: aqua;
+    padding: 15px;
+    font-size: 30px;
+    text-align: center;
+}
+.d2:hover{
+    width: 750px;
+    height: 250px;
+    background-color: rgb(234, 154, 56);
+}
+
+h2{
+    text-align: center;
+    color: rgb(6, 6, 95);
+    font-size: 30px;
+}
+.box1{
+    background-clip: border-box;
+}
+.box2{
+    background-clip: padding-box;
+}
+.box3{
+    background-clip: content-box;
+}

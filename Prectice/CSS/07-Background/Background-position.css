@@ -1,0 +1,85 @@
+.d1{
+    border: 3px solid black;
+    margin: 20px;
+    background-color: rgb(237, 237, 243);
+    padding-bottom: 20px;
+}
+#p{
+    font-size: 20px;
+    padding-left: 200px;
+    padding-right: 100px;
+    color: rgb(6, 6, 95);
+}
+.h{
+    text-align: center;
+    color: rgb(219, 219, 231);
+    background-color: rgb(16, 16, 68); 
+    font-size: 40px;
+}
+h2{
+    text-align: center;
+    font-size: 30px;
+    text-shadow: 2px 2px 3px lightpink;
+    color: rgb(16, 16, 68);
+}
+h2:hover{
+    font-size: 35px;
+}
+span{
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.d2{
+    height: 500px;
+    width: 1500px;
+    border: 2px solid black;
+    display: flex;
+    margin: 20px auto;   
+}
+.d3{
+    height: 400px;
+    width: 400px;
+    border: 2px solid black;
+    margin: 20px auto;
+    background-repeat: no-repeat;
+    background-image: url('../../Images/welcome-1.gif');
+    display: flex;
+    text-align: center;
+    font-size: 30px;
+    padding: 10px;
+    text-shadow: 2px 2px 3px rgb(203, 186, 148);
+    font-weight: bold;
+    background-color: white;
+}
+.d3:hover{
+    height: 450px;
+    width: 450px;
+    
+}
+.left1{
+    background-position: left top;
+}
+.left2{
+    background-position: left center;
+}
+.left3{
+    background-position: left bottom;
+}
+.right1{
+    background-position: right top;
+}
+.right2{
+    background-position: right center;
+}
+.right3{
+    background-position: right bottom;
+}
+.center1{
+    background-position: center top;
+}
+.center2{
+    background-position: center center;
+}
+.center3{
+    background-position: center bottom;
+}
