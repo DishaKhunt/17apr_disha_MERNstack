@@ -1,0 +1,515 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+/* Header-top Start */
+.header-top{
+    width: 100%;
+    height: auto;
+    
+    /* border: 1px solid black; */
+}
+.header-top ul{
+    text-align: center;
+    list-style: none;
+    background-color: black;
+    padding: 5px;
+}
+.header-top ul li{
+    display: inline;
+    color: white;
+    padding: 20px auto;
+    text-align: center;
+}
+.header-top ul li .fa-solid{
+    margin: 0px 10px;
+}
+.header-top ul .after-border:after{
+    content: '';
+    border: 1px solid white;
+    margin: 50px;
+}
+/* Header-top End */
+
+/* Heeader-between Strat */
+.header-between{
+    width: 100%;
+    height: 90px;
+    /* border: 1px solid black; */
+    position: relative;
+}
+.header-between .logo{
+    position: absolute;
+    left: 200px;
+    margin: 5px;
+    /* border: 1px solid black; */
+}
+
+.header-between .search{
+    width: 400px;
+    height: 40px;
+    margin: 25px 0px;
+    text-align: center;
+    line-height: 40px;
+    position: absolute;
+    right: 300px;
+    color: gray;
+    border: 2px solid rgb(80, 159, 185);
+}
+.header-between .search .fa-solid{
+    color: black;
+}
+
+.header-between .icon{
+    width: 150px;
+    height: 50px;
+    margin: 20px 0px;
+    position: absolute;
+    right: 130px;
+    /* border: 1px solid black; */
+}
+.header-between .icon ul{
+    list-style: none;
+    text-align: center;
+    line-height: 50px;
+}
+.header-between .icon ul li{
+    display: inline;
+    padding: 5px 10px;
+    font-size: 20px;
+}
+/* Header-between -End */
+
+/* Header bottom Start */
+.header-bottom{
+    width: 100%;
+    height: auto;
+    border: 1px solid black;
+    display: block;
+    /* background-color: black; */
+}
+.header-bottom ul{
+    list-style: none;
+    text-align: center;
+    line-height: 50px;
+    width: 100%;
+    height: 50px;
+    background-color: black;
+}
+.header-bottom ul li{
+    display: inline;
+    color: white;
+    padding: 20px;
+}
+
+/*men Start */
+.men-parent-list{
+    position: relative;
+}
+
+.men{
+    position: absolute;
+    left: 0px;
+    height: auto;
+    width: 750px;
+    display: flex;
+    background-color: white;
+    display: none;
+    box-shadow: 0px 0px 10px gray;
+    /* border: 1px solid black; */
+}
+.men .men-image{
+    width: 300px;
+    height: 430px;
+    margin: 10px;
+    box-shadow: 0px 0px 10px gray;
+    /* border: 1px solid black; */
+}
+.men .men-image img{
+    width: 100%;
+    height: 100%;
+}
+
+.men .men-shoes{
+    height: 430px;
+    width: 440px;
+    margin: 10px;
+    display: flex;
+    /* border: 1px solid black; */
+    background-color: white;
+}
+
+.men .men-shoes .men-shoes-ul{
+    height: auto;
+    width: auto;
+    text-align: left;
+    line-height: 0px;
+    background-color: white;
+    float: left;
+}
+
+.men .men-shoes .men-shoes-ul li{
+    display: block;
+    color: gray;
+    padding: 10px;
+}
+
+.men .men-shoes .men-shoes-ul .men-shoes-li{
+    color: black;
+    font-weight: bold;
+}
+
+.men .men-shoes .men-shoes-ul .color{
+    width: 10px;
+    height: 10px;
+    margin: 0px auto;
+    border-radius: 50%;
+    border: 1px solid gray;
+}
+.men-parent-list:hover .men{
+    display: flex;
+}
+/* men End */
+
+/* Women Strat */
+.women-parent-list{
+    position: relative;
+}
+
+.women{
+    position: absolute;
+    left: 0px;
+    height: auto;
+    width: 940px;
+    display: flex;
+    background-color: white;
+    display: none;
+    box-shadow: 0px 0px 10px gray;
+    /* border: 1px solid black; */
+}
+.women .women-image{
+    width: 300px;
+    height: 470px;
+    margin: 10px;
+    box-shadow: 0px 0px 10px gray;
+    /* border: 1px solid black; */
+}
+.women .women-image img{
+    width: 100%;
+    height: 100%;
+}
+.women .women-shoes{
+    height: 470px;
+    width: 600px;
+    margin: 10px;
+    display: flex;
+    /* border: 1px solid black; */
+    background-color: white;
+}
+
+.women .women-shoes .women-shoes-ul{
+    height: auto;
+    width: auto;
+    text-align: left;
+    line-height: 0px;
+    background-color: white;
+    float: left;
+}
+
+.women .women-shoes .women-shoes-ul li{
+    display: block;
+    color: gray;
+    padding: 10px;
+}
+
+.women .women-shoes .women-shoes-ul .women-shoes-li{
+    color: black;
+    font-weight: bold;
+}
+.women .women-shoes .women-shoes-ul .color{
+    width: 10px;
+    height: 10px;
+    margin: 0px auto;
+    border-radius: 50%;
+    border: 1px solid gray;
+}
+.women-parent-list:hover .women{
+    display: flex;
+}
+/* Women End */
+
+/* Kids Start */
+.kids-parent-list{
+    position: relative;
+}
+
+.kids{
+    position: absolute;
+    left: 0px;
+    height: auto;
+    width: 500px;
+    display: flex;
+    background-color: white;
+    display: none;
+    /* box-shadow: 0px 0px 10px lightgray; */
+    /* border: 1px solid black; */
+}
+.kids .kids-parent{
+    width: 100%;
+    height: 40px;
+    padding: 5px 140px;
+    display: flex;
+    color: black;
+    background-color: #f1ecec;
+    /* border: 1px solid black; */
+}
+.kids .kids-child{
+    width: 100px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 18px;
+    margin: 0px 10px;
+    /* background-color: lightgrey; */
+    /* border: 1px solid black; */
+}
+.kids-parent-list:hover .kids{
+    display: flex;
+}
+/* kids-boys-Start */
+.kids-boys{
+    position: relative;
+    background-color: white;
+}
+.kids-child .boys{
+    height: 160px;
+    width: 500px;
+    position: absolute;
+    left: -150.5px;
+    top: 35px;
+    font-size: 16px;
+    padding: 10px 120px;
+    background-color: white;
+    box-shadow: 0px 0px 10px lightgray;
+    display: flex;
+    /* display: none; */
+    /* border: 1px solid black; */
+}
+.boys .kids-boys-ul{
+    height: auto;
+   width: auto;
+   text-align: left;
+   line-height: 0px;
+   background-color: white;
+   float: left;
+}
+.boys .kids-boys-ul li{
+    display: block;
+   color: gray;
+   padding: 10px;
+}
+.boys .kids-boys-ul .kids-boys-li{
+   font-weight: bold;
+   margin-bottom: 10px;
+   color: black;
+}
+.kids-boys:hover .girls{
+    display: flex;
+}
+/* kids-boys End */
+
+/* kids-girls Start */
+.kids-girls{
+    position: relative;
+    background-color: lightgrey;
+}
+.kids-child .girls{
+    height: 160px;
+    width: 500px;
+    position: absolute;
+    left: -260px;
+    top: 35px;
+    font-size: 16px;
+    padding: 10px 120px;
+    background-color: white;
+    box-shadow: 0px 0px 10px lightgray;
+    display: flex;
+    display: none;
+    /* border: 1px solid black; */
+}
+.girls .kids-girls-ul{
+    height: auto;
+   width: auto;
+   text-align: left;
+   line-height: 0px;
+   background-color: white;
+   float: left;
+}
+.girls .kids-girls-ul li{
+    display: block;
+   color: gray;
+   padding: 10px;
+}
+.girls .kids-girls-ul .kids-girls-li{
+   font-weight: bold;
+   margin-bottom: 10px;
+   color: black;
+}
+
+.kids-girls:hover .girls{
+    display: flex;
+}
+
+/* kids-girls End */
+.kids-child:hover{
+    background-color: white;
+}
+.kids-girls:hover .kids-boys{
+    background-color: lightgray;
+}
+/* Kids End */
+
+/* Accessories Start */
+.accessories-parent-list{
+    position: relative;
+}
+
+.accessories{
+    position: absolute;
+    left: 0px;
+    height: auto;
+    width: 475px;
+    display: flex;
+    padding: 10px;
+    background-color: white;
+    display: none;
+    box-shadow: 0px 0px 10px gray;
+    /* border: 1px solid black; */
+}
+.accessories .accessories-ul{
+     height: auto;
+    width: auto;
+    text-align: left;
+    line-height: 0px;
+    background-color: white;
+    /* float: left; */
+}
+.accessories .accessories-ul li{
+     display: block;
+    color: gray;
+    padding: 10px;
+}
+.accessories .accessories-ul .accessories-li{
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: black;
+}
+.accessories-parent-list:hover .accessories{
+    display: flex;
+}
+/* Accessories End */
+
+/* Bags Start */
+.bags-parent-list{
+    position: relative;
+}
+.bags{
+    position: absolute;
+    left: 0px;
+    height: 280px;
+    width: 170px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    padding: 10px;
+    background-color: white;
+    display: none;
+    box-shadow: 0px 0px 10px gray;
+    /* border: 1px solid black; */
+}
+
+.bags .bags-ul{
+    height: auto;
+    width: auto;
+    text-align: left;
+    line-height: 0px;
+    background-color: white;
+}
+
+.bags .bags-ul li{
+    display: block;
+    color: gray;
+    padding: 10px;
+}
+.bags .bags-ul .bags-li{
+    color: black;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.bags-parent-list:hover .bags{
+    display: flex;
+}
+/* Bags end */
+
+/* Brands Start */
+.brands-parent-list{
+    position: relative;
+}
+.brands{
+    position: absolute;
+    left: 0px;
+    height: 280px;
+    width: 260px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    background-color: white;
+    display: none;
+    box-shadow: 0px 0px 10px gray;
+    /* border: 1px solid black; */
+}
+.brands h4{
+    color: black;
+    font-weight: bold;
+    text-align: left;
+}
+.brands .brands-name{
+    width: auto;
+    height: 250px;
+    /* border: 1px solid black; */
+}
+.brands .brands-ul{
+    height: auto;
+    width: auto;
+    text-align: left;
+    float: left;
+    line-height: 0px;
+    background-color: white;
+}
+
+.brands .brands-ul li{
+    display: block;
+    color: gray;
+    padding: 10px;
+}
+/* .brands .brands-ul .brands-li{
+    color: black;
+    font-weight: bold;
+    margin-bottom: 10px;
+} */
+.brands-parent-list:hover .brands{
+    display: flex;
+}
+/* Brnds End */
+/* Header bottom End */
+
+/* banner Start */
+.banner{
+    width: 100%;
+    height: 600px;
+    border: 1px solid black;
+}
+.banner img{
+    width: 100%;
+    height: 100%;
+}
