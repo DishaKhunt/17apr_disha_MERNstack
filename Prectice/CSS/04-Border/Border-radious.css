@@ -1,0 +1,48 @@
+.d1{
+    border: solid ;
+    margin: 20px;
+    background-color: rgb(196, 229, 200);
+    padding-bottom: 20px;
+}
+#d{
+    height: 250px;
+    width: 250px;
+    border: solid rgb(16, 165, 31);
+    margin: 10px auto;
+    background-color: rgb(16, 165, 31);
+    line-height: 250px;
+    text-align: center;
+    font-size: 60px;
+}
+#d:hover{
+    height: 300px;
+    width: 300px;
+    font-size: 80px;
+}
+.d2
+{
+    border-radius: 15px 50px 30px 5px;
+}
+.d3
+{
+    border-radius: 15px 50px 30px;
+}
+.d4{
+    border-radius: 15px 50px;
+   
+}
+.d5{
+    border-radius: 15px;
+}
+#p1{
+    padding-left: 150px;
+    padding-right: 100px;
+    font-size: 20px;
+    color: rgb(8, 83, 15);
+}
+h1{
+    text-align: center;
+    color: rgb(196, 229, 200);
+    background-color: rgb(8, 83, 15); 
+    font-size: 40px;
+}

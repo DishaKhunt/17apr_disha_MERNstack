@@ -1,0 +1,45 @@
+.d1{
+    border: 3px solid ;
+    margin: 20px;
+    background-color: rgb(227, 209, 209);
+    padding-bottom: 20px;
+}
+#p1{
+    font-size: 20px;
+    padding-left: 150px;
+    padding-right: 100px;
+    color: rgb(84, 5, 5);
+}
+h1{
+    text-align: center;
+    color: rgb(225, 187, 187);
+    background-color: rgb(84, 5, 5); 
+    font-size: 40px;
+}
+#d{
+    height: 80px;
+    width: 450px;
+    margin: 20px auto;  
+    border: 10px solid red;
+    text-align: center;
+    font-size: 40px;
+    padding: 10px;   
+    outline-width: 10px;
+    background-color: rgb(222, 150, 150);
+}
+#d:hover{
+    height: 100px;
+    width: 500px;
+}
+.d2{
+    outline-style: solid;
+    outline-color: blue;
+}
+.d3{
+    outline-style: dotted;
+    outline-color: rgb(107, 107, 2);
+}
+.d4{
+    outline-style: groove;
+    outline-color: #f0f;
+}

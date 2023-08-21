@@ -1,0 +1,67 @@
+.d1{
+    border: 3px solid ;
+    margin: 20px;
+    background-color: rgb(222, 220, 231);
+    padding-bottom: 20px;
+}
+#p1{
+    font-size: 20px;
+    text-align: center;
+    color: rgb(22, 5, 97);
+}
+h1{
+    text-align: center;
+    color: rgb(180, 177, 195);
+    background-color: rgb(16, 4, 74); 
+    font-size: 40px;
+}
+#d{
+    height: 100px;
+    width: 450px;
+    border-width: 10px;
+    margin: 20px auto;
+    border-color: rgb(16, 4, 74);
+    text-align: center;
+    font-size: 40px;
+    line-height: 100px;
+}
+#d:hover{
+    height: 150px;
+    width: 500px;
+}
+.d2{
+    border-style: solid;
+}
+.d3{
+    border-style: none;
+}
+.d4{
+    border-style: hidden;
+}
+.d5{
+    border-style: dotted;
+}
+.d6{
+    border-style: dashed;
+}
+.d7{
+    border-style: double;
+}
+.d8{
+    border-style: groove;
+}
+.d9{
+    border-style: ridge;
+}
+.d10{
+    border-style: inset;
+}
+.d11{
+    border-style: outset;
+}
+.d12{
+    border-style: initial;
+}
+.d13{
+    border-style: inherit;
+}
