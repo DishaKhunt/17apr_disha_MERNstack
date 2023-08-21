@@ -1,0 +1,52 @@
+.d1{
+    border: 1px solid black;
+    background-color: beige;
+    color: #490404;
+}
+.h{
+    color: beige;
+    background-color: #3e0505;
+    text-align: center;
+}
+p{
+    margin: 10px 200px;
+    font-size: 20px;
+}
+.d2{
+    border: 5px solid rgb(74, 41, 5);    
+    height: auto;
+    width: 200px;  
+    padding: 10px;
+    margin: 5px 300px;
+    font-size: 20px;
+}
+.d3-parent{
+    width: 500px;
+    height: 500px;
+    margin: 30px auto;
+}
+
+.h1{
+    counter-reset: x;
+}
+ul li{
+    color: navy;
+}
+ul li::before{
+    content: counter(x);
+    counter-increment: x;
+}
+div{
+    counter-reset: y;
+}
+.h2::before{
+    counter-increment: y;
+    content: counter(y) ". ";
+}
+.h2{
+    counter-reset: z;
+}
+.p2::before{
+    content: counter(y) "." counter(z) "  ";
+    counter-increment: z;
+}

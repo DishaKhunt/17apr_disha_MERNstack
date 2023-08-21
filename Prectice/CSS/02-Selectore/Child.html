@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Child Selectore</title>
+    <style>
+        div > h1{
+            color: rgb(208, 191, 223);
+            background-color: rgb(48, 10, 86);
+            text-align: center;
+        }
+        p{
+            color: rgb(48, 10, 86);
+            padding: 20px 40px;
+            font-size: 20px;
+        }
+        div{
+            background-color:  rgb(226, 221, 230);
+            border: 3px solid rgb(33, 2, 52);
+            margin: 40px;
+            
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h1>Child Selector</h1>
+        <p>
+            => The child combinator (>) is placed between two CSS selectors.  <br>
+            => It matches only those elements matched by the second selector that are the direct children of elements matched by the first. <br>
+            => The child selector selects all elements that are the children of a specified element. <br>
+            => if &lt;div&gt; is the parent tag and child tag is &lt;h1&gt; than &lt;h1&gt; select &lt;div&gt; &gt; &lt;h1&gt; <br>
+        </p>
+    </div>
+</body>
+</html>
