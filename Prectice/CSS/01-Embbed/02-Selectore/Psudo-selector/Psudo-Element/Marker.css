@@ -1,0 +1,49 @@
+.d1{
+    border: 3px solid black;
+    margin: 20px;
+    background-color: rgb(221, 221, 232);
+    padding-bottom: 20px;
+    color: rgb(16, 16, 68);
+}
+#p{
+    font-size: 20px;
+    margin: 10px 200px;
+    color: rgb(6, 6, 95);
+}
+.h{
+    text-align: center;
+    color: rgb(184, 184, 211);
+    background-color: rgb(16, 16, 68); 
+    font-size: 40px;
+}
+.d2{
+    border: 5px solid rgb(74, 41, 5);    
+    height: auto;
+    width: 200px;  
+    padding: 10px;
+    margin: 5px 300px;
+    font-size: 20px;
+}
+.d3{
+    width: 300px;
+    height: 180px;
+    margin: 30px auto;
+    border: 10px groove brown;
+    padding: 30px;
+    background-color: antiquewhite;
+}
+.d3:hover{
+    width: 320px;
+    height: 200px;
+}
+ul li{
+    color: rgb(95, 122, 6);
+    font-size: 30px;
+}
+li::marker{
+    color: red;
+}
+li:hover{
+    background-color: black;
+    color: white;
+}

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adjsent-Sibling Selector</title>
+    <style>
+        h1{
+            color: yellow;
+            background-color: rgb(37, 37, 1);
+            text-align: center;
+        }
+        p{
+            padding: 20px;
+            font-size: 20px;
+        }
+        div + p {
+         background-color: yellow;
+        }
+        h1 + p{
+            color: rgb(100, 100, 6);
+        }
+        .d1{
+            border: 3px solid rgb(68, 68, 1);
+            background-color: rgb(233, 233, 127)
+            margin: 20px;
+        }
+        #d2{
+            border: 5px solid  rgb(12, 7, 74);;  
+            margin-bottom: 10px;
+            margin-left: 140px;
+            margin-right: 1000px;
+            padding: 20px;
+            font-size: 25px;
+            background-color: yellow;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="d1">
+    <h1>Adjacent Sibling Selector</h1>
+
+         <p>=> The + selector is used to select an element that is directly after another specific element. <br>
+            => The following example selects the first p element that are placed immediately after div elements: <br>
+            => <b>syntax:-</b> <br>
+           <div id="d2">
+        div + p { <br>
+                css declarations; <br>
+              }
+           </div>
+        </p>
+
+         <div>
+           <p>Paragraph 1 in the div.</p>
+           <p>Paragraph 2 in the div.</p>
+         </div>
+
+         <p>Paragraph 3. After a div.</p>
+         <p>Paragraph 4. After a div.</p>
+
+         <div>
+           <p>Paragraph 5 in the div.</p>
+           <p>Paragraph 6 in the div.</p>
+         </div>
+
+         <p>Paragraph 7. After a div.</p>
+         <p>Paragraph 8. After a div.</p>
+        </div>
+
+</body>
+</html>

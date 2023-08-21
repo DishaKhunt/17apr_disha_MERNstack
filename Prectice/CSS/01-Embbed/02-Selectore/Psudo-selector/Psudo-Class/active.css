@@ -1,0 +1,39 @@
+.d1{
+    border: 3px solid ;
+    margin: 20px;
+    background-color: rgb(228, 220, 220);
+    padding-bottom: 20px;
+}
+.h2{
+    font-size: 35px;
+    color: rgb(136, 8, 8);
+    text-align: center;
+}
+.h1{
+    text-align: center;
+    color: rgb(229, 192, 192);
+    background-color: rgb(90, 19, 19); 
+    font-size: 40px;
+}
+h2{
+    text-align: center;
+}
+/* unvisited link */
+a:link {
+    color: red;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: green;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: hotpink;
+  }
+  
+  /* selected link */
+  a:active {
+    color: blue;
+  }

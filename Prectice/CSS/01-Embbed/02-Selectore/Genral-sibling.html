@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Genral-Sibling</title>
+    <style>
+         h1 {
+            text-align: center;
+            color: rgb(243, 199, 199);
+            background-color: rgb(193, 10, 10);
+        }
+        .d1{
+            background-color: rgb(241, 219, 219);
+            border: 3px solid darkred;
+            margin: 20px;
+        }
+        p{
+            padding: 20px;
+        }
+
+        h1~p {
+            color: rgb(19, 6, 72);
+            font-size: 20px;
+            padding-left: 40px;
+            padding-right: 40px;
+        }
+        div ~ p {
+            background-color: yellow;
+        }
+        #d2{
+            border: 5px solid  rgb(12, 7, 74);;  
+            margin-bottom: 10px;
+            margin-left: 140px;
+            margin-right: 1000px;
+            padding: 20px;
+            font-size: 25px;
+        }
+    </style>
+</head>
+<body>
+    <div class="d1">
+        <h1>general sibling Selector</h1>
+    <p>=> The general sibling selector (~) selects all elements that are next siblings of a specified element. <br>
+        => <b>syntax:-</b> <br>
+        <div id="d2">
+         div ~ p { <br>
+             css declarations; <br>
+           }
+        </div>
+    </p>
+
+    <p>Paragraph 1.</p>
+    
+    <div>
+      <p>Paragraph 2.</p>
+    </div>
+    
+    <p>Paragraph 3.</p>
+    <code>Some code.</code>
+    <p>Paragraph 4.</p>
+</div>
+</body>
+</html>
