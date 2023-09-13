@@ -82,14 +82,19 @@
 }
 .add-cart{
     text-align: center;
-    height: 50px;
+    height: 40px;
     width: 80%;
     position: absolute;
     top: 70px;
     left: 10%;
     font-size: 20px;
-    line-height: 50px;
+    line-height: 40px;
     font-weight: bold;
     background-color: aqua;
     color: white;
+}
+.add-cart:hover{
+    outline: 5px solid aqua;
+    outline-offset: 5px;
+    transition: 1s;
 }
