@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main{
+    height: auto;
+    width: auto;
+    border: 1px solid black;
+}
+.child{
+    height: auto;
+    width: 80%;
+    margin: 30px auto;
+    /* background-color: #ebe7e7; */
+    position: relative;
+    padding: 20px;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(3, 320px);
+    grid-template-rows: repeat(2, 290px);
+    gap: 20px;
+    box-shadow: 0px 0px 10px lightgray;
+    /* border: 1px solid black; */
+}
+.child .card{
+    /* border: 1px solid black; */
+    box-shadow: 0px 0px 5px gray;
+}
+.child .card .card-1{
+    /* border: 1px solid black; */
+    height: 150px;
+    background-color: gray;
+    color: white;
+    text-align: center;
+    line-height: 150px;
+}
+.child .card .card-2{
+    padding: 20px;
+    /* border: 1px solid black; */
+}
+.child .card .card-2 ul{
+    width: 110px;
+    border: 2px solid black;
+    margin: 10px 0px;
+}
+.child .card .card-2 ul li{
+    display: inline;
+    padding: 20px 5px;
+    text-align: center;
+    /* border: 1px solid red; */
+}
+.child .card .card-2 ul .after::after{
+    content: '';
+    border: 1px solid black;
+    margin: 5px;
+}
