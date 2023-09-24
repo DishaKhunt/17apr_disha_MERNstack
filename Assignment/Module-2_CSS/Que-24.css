@@ -1,0 +1,123 @@
+*{
+    margin: 0px;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main{
+    height: auto;
+    width: auto;
+    position: relative;
+}
+.main .team-img{
+    height: 650px;
+    width: 100%;
+    position: absolute;
+    background-image: url("https://i0.wp.com/picjumbo.com/wp-content/uploads/web-designer-sketching-webdesign-layout-ideas-free-photo.jpg?w=600&quality=80");
+    background-size: cover;
+}
+.main .team-content{
+    color: white;
+    position: absolute;
+    top: 100px;
+    left: 580px;
+    /* border: 1px solid white; */
+    text-align: center;
+}
+.main .team-content h1{
+    margin: 40px 10px;
+}
+.main .team-content p{
+    font-size: 18px;
+}
+.main .team-content .circle{
+    width: 5px;
+    height: 5px;
+    margin: 30px auto;
+    background-color:  crimson;
+    border-radius: 50%;
+    position: relative;
+}
+.main .team-content .circle:after{
+    content: "";
+    position: absolute;
+    right: 5px;
+    bottom: 3px;
+    height: 1px;
+    width: 90px;
+    background: #eee;
+    display: inline-block;
+    margin-right: 15px;
+}
+.main .team-content .circle::before{
+    content: "";
+    position: absolute;
+    left: 5px;
+    bottom: 3px;
+    height: 1px;
+    width: 90px;
+    background: #eee;
+    display: inline-block;
+    margin-left: 15px;
+}
+.main svg {
+    position: absolute;
+    top: 310px;
+}
+.main .member{
+    height: 140px;
+    width: 100px;
+    margin: auto;
+    /* border: 1px solid white; */
+}
+.main .member .member-img{
+    height: 70px;
+    width: 70px;
+    margin: auto;
+    border-radius: 50%;
+    border: 1px solid red;
+}
+.main .member .member-img:hover{
+    height: 90px;
+    width: 90px;
+}
+.main .member-1{
+    position: absolute;
+    left: 250px;
+    top: 420px;
+}
+.main .member-2{
+    position: absolute;
+    left: 440px;
+    top: 410px;
+}
+.main .member-3{
+    position: absolute;
+    left: 640px;
+    top: 430px;
+}
+.main .member-4{
+    position: absolute;
+    right: 550px;
+    top: 490px;
+}
+.main .member-5{
+    position: absolute;
+    right: 330px;
+    top: 470px;
+}
+.main .member .member-info{
+    text-align: center;
+    margin: 20px auto;
+    display: none;
+}
+.main .member .member-info h4{
+    color: #f31542;
+    font-size: 20px;
+}
+.main .member .member-info p{
+    color: white;
+    font-size: 18px;
+}
+.member:hover .member-info{
+    display: block;
+}

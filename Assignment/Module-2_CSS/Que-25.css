@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Header Start */
+.header{
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 100px;
+    padding: 20px 0px;
+    justify-content: center;
+    /* border:  1px solid black; */
+}
+.header .header-logo{
+    /* border: 1px solid black; */
+    height: 50px;
+    width: 210px;
+    line-height: 50px;
+    font-size: 24px;
+    font-weight: 400;
+    color: #1D2830;
+    text-align: center;
+}
+.header .header-menu{
+    /* border: 1px solid black; */
+    height: auto;
+    width: 500px;
+}
+.header .header-menu .list{
+    list-style: none;
+    line-height: 50px;
+    height: 50px;
+    text-align:  center;
+}
+.header .header-menu .list li{
+    padding: 10px;
+    text-align: center;
+    font-size: 16px;
+    display: inline;
+    color:  #35414B;
+}
+.header .header-button{
+    /* border: 1px solid black; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    column-gap: 20px;
+    height: auto;
+    width:210px;
+}
+.header .header-button .btn{
+    /* border: 1px solid black; */
+    height: 40px;
+    text-align: center;
+    font-size: 16px;
+    line-height: 30px;
+    padding: 5px 10px;
+}
+.header .header-button .btn a{
+    text-decoration: none;
+}
+.header .header-button .btn-1 a{
+    color: #35414B;
+}
+.header .header-button .btn-2 a{
+    color: #794CFF;
+}
+.header .header-button .btn-2{
+    background-color: #ECE5FF;
+    border-radius: 3px;
+}
+/* Heder End */
+
