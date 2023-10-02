@@ -12,7 +12,7 @@
     height: 650px;
     width: 100%;
     position: absolute;
-    background-image: url("https://i0.wp.com/picjumbo.com/wp-content/uploads/web-designer-sketching-webdesign-layout-ideas-free-photo.jpg?w=600&quality=80");
+    background-image: url("Image/Que-24.jpg");
     background-size: cover;
 }
 .main .team-content{
@@ -76,9 +76,15 @@
     border-radius: 50%;
     border: 1px solid red;
 }
+.main .member .member-img img{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+}
 .main .member .member-img:hover{
     height: 90px;
     width: 90px;
+    box-shadow: 0px 0px 10px black;
 }
 .main .member-1{
     position: absolute;

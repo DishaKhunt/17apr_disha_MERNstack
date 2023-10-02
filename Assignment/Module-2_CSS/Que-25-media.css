@@ -1,0 +1,278 @@
+@media (max-width:700px) and (min-width:350px){
+
+    /* Header Start */
+    .section-1{
+        height: 1000px;
+        clip-path: circle(81.5% at 48% 10%);
+    }
+    .header{
+        column-gap: 200px;
+        position: relative;
+    }
+    .header .header-logo{
+        position: absolute;
+        top: 30px;
+        left: 50px;
+    }
+   .header .header-menu{
+        display: none;
+   }
+   .header .header-button{
+        display: none;
+   }
+   .header .header-bar{
+        height: auto;
+        width: 60px;
+        position: absolute;
+        right: 30px;
+        top: 40px;
+        text-align: center;
+        font-size: 16px;
+        /* border: 1px solid black; */
+        display: block;
+   }
+   .header .header-bar .fa-solid{
+        font-size: 30px;
+   }
+   /* Header End */
+
+   /* banner Start */
+   .banner .box-1{
+        position: absolute;
+        left: 140px;
+   }
+   .banner .box-2{
+        display: none;
+   }
+   .banner .heading{
+        position: absolute;
+        left: 60px;
+        width: 75%;
+    /* border: 1px solid black; */
+    }
+   .banner .heading h1{
+        font-size: 40px;
+   }
+   .banner .heading p{
+        margin: 15px;
+        text-align: justify;
+        font-size: 18px;
+   }
+   .banner .box-3{
+        position: absolute;
+        left: 80px;
+   }
+   .banner .box-4{
+        width: 319px;
+        height: 52px;
+        border-radius: 4px;
+        position: absolute;
+        left: 80px;
+        top: 470px;
+   }
+   /* banner End */
+
+   /* graph Start */
+   .graph{
+        height: 200px;
+    }
+   .graph .graph-img{
+        position: absolute;
+        left: 18px;
+        top: -400px;
+        width: 450px;
+        height: 400px;
+   }
+   .graph p{
+        position: absolute;
+        left: 50px;
+        top: 40px;
+    }
+    .graph .company{
+        position: absolute; 
+        top: 80px;
+        /* border: 1px solid black; */
+        column-gap: 30px;
+    }
+    .graph .svg-5{
+        display: none;
+    }
+    /* graph End */
+
+    /* Time-line Start */
+    .timeline-container{
+        display: block;
+        border: 1px solid #F0EBFA;
+    }
+    .timeline-container .timeline{
+        height: 350px;
+        width: 400px;
+    }
+    .timeline-container .timeline-list{
+        width: 400px;
+        margin: 50px auto;
+    }
+    .timeline-container .timeline-list li{
+        text-align: center;
+    }
+    .timeline-container .timeline-list .timeline-li{
+        border-radius: 8px 8px 0px 0px;
+        border-left: none;
+        border-bottom: 10px solid #794cFF;
+        
+    }
+    /* Time-line End */
+
+    /* Work Start */
+    .work-container{
+        padding: 50px 50px;
+    }
+    .work-container .work-grid{
+        display: block;
+        text-align: center;
+        height: auto;
+        /* border: 1px solid black; */
+    }
+    .work-container .work-grid .grid{
+        margin: 50px 30px;
+    }
+    .work-container .work-grid .svg{
+        margin: 10px auto;
+    }
+    .work-container .work-grid .grid-4,.grid-5,.grid-6{
+        display: none;
+    } 
+    .work-container .work-benefit{
+        text-align: center;
+        height: 52px;
+        width: 318px;
+        margin: 20px auto;
+        border-radius: 4px;
+        background-color: #ECE5FF;
+        color: #7259FA;
+        font-size: 18px;
+        line-height: 52px;
+        display: block;
+    }
+   /* work End */
+
+   /* Project-Graph Start */
+   .project-graph{
+        height: 700px;
+        position: relative;
+   }
+   .project-graph .launched-project-img{
+        height: 350px;
+        width: 440px;
+        position: absolute;
+        top: 30px;
+   }   
+   .project-graph .project-contain{
+        position: absolute;
+        top: 400px;
+        height: auto;
+        text-align: center;
+        /* border: 1px solid black; */
+   } 
+   .project-graph .project-contain p{
+        font-size: 18px;
+        padding: 10px;
+        line-height: 24px;
+   }
+   .project-graph .project-contain .button{
+        height: 52px;
+        width: 318px;
+        margin: auto;
+   }
+   /* Project-Graph Start */
+
+   /* Customer Start */
+   .customer-container{
+        padding: 50px 0px;
+   }
+   .customer-container .customer-work{
+        height: auto;
+        width: auto;
+        /* border: 1px solid black; */
+   }
+   .customer-container .customer-work p{
+        padding: 30px;
+   }
+   .customer-container .customer-list{
+        padding: 0px 50px ;
+        margin: 20px 0px;
+        /* border: 1px solid black; */
+   }
+   .customer-container .customer-list li .customer{
+        /* border: 1px solid black; */
+        text-align: center;
+   }
+   .customer-container .customer-list .customer-li-1{
+        border: none;
+   }
+   .customer-container .customer-list .customer-li{
+        display: none;
+   }
+   .customer-container .customer-list li .customer{
+        display: block;
+   }
+   .customer-list li .customer .customer-img{
+        margin: auto;
+   }
+   .customer-container .app-container{
+        height: auto;
+        width: 100%;
+        border-radius: 0px;
+        display: block;
+        padding: 50px;
+   }
+   .customer-container .app-container .app-child{
+        height: auto;
+        width: auto;
+   }
+   .customer-container .app-container .app-child-1 h1{
+        font-size: 30px;
+        text-align: center;
+   }
+   .customer-container .app-container .app-child-2{
+        display: block;
+   }
+   .customer-container .app-container .app-child-2 .app-store{
+        margin: 30px auto;
+   }
+   /* Customer End */
+
+   /* Footer Start */
+   .footer-container .footer{
+        display: block;
+   }
+   .footer-container .footer .item {
+        height: auto;
+        position: relative;
+        width: auto;
+        /* border: 1px solid white; */
+   }
+   .footer-container .footer .item ul li{
+        display: none;
+   }
+   .footer-container .footer .item ul h4{
+        font-size: 20px;
+   }
+   .footer-container .footer .item ul .fa-solid{
+        display: inline;
+        position: absolute;
+        right: 10px;
+        
+   }
+   .footer-container .footer .item ul .item-li{
+        display: block;
+   }
+   .footer-container .footer-bottom p{
+    margin: 30px;
+   }
+   .footer-container .footer-bottom ul{
+        display: none;
+   }
+   
+   /* Footer End */
+}

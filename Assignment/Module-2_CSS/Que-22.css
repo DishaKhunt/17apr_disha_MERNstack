@@ -15,7 +15,7 @@ clip-path: polygon(100% 0, 100% 53%, 50% 68%, 0 53%, 0 0);
 position: relative;
 }
 .main .banner-img{
-    height: inherit;
+    height: 900px;
     width: 100%;
     position: absolute;
 }
@@ -62,6 +62,21 @@ position: relative;
     padding: 15px;
     font-size: 14px;
     text-align: center;
+    position: relative;
+}
+.main .top .header ul li::after{
+    position: absolute;
+    content: '';
+    transition: 1s;
+    width: 0px;
+    height: 0px;
+    bottom: 0px;
+    left: 0px;
+    border-bottom: 3px solid orangered;
+}
+.main .top .header ul li:hover:after{
+    height: 100%;
+    width: 100%;
 }
 .main .top .header ul li:hover{
     color: orangered;
@@ -127,20 +142,59 @@ position: relative;
     background-color: orangered;
     border: none;
 }
-.main .icon{
+.icon{
     height: 50px;
     width: 50px;
     border-radius: 50%;
     background-color: white;
     position: absolute;
-    top: 560px;
+    top: 575px;
     left: 730px;
     /* border: 1px solid black; */
     text-align: center;
     box-shadow: 0px 0px 10px grey;
     z-index: 20;
 }
-.main .icon .fa{
+.icon .fa{
     color: crimson;
     line-height: 50px;
+}
+.footer-container{
+    width: 100%;
+    position: absolute;
+    top: 700px;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    column-gap: 30px;
+}
+.footer-container .item{
+    /* border: 1px solid black; */
+    height: 180px;
+    width: 200px;
+    text-align: center;
+}
+.footer-container .item p{
+    color: grey;
+}
+.footer-container .item .line{
+    border: 1px solid gray;
+    height: auto;
+    width: 50px;
+    margin: 10px auto;
+}
+.footer-container .item .item-img{
+    height: 40px;
+    line-height: 40px;
+    color: crimson;
+    width: 40px;
+    border: 1px solid gray;
+    margin: 20px auto;
+}
+.footer-container .item:hover .item-img{
+    transform: rotate(50deg);
+    border: 1px solid crimson;
+}
+.footer-container .item:hover h5{
+    color: crimson;
 }

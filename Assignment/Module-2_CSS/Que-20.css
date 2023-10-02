@@ -6,7 +6,7 @@
 .main{
     height: auto;
     width: auto;
-    border: 1px solid black;
+    /* border: 1px solid black; */
 }
 .child{
     height: auto;
