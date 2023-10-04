@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Que-4.css">
+    <title>Question-4</title>
+</head>
+<body>
+    <div class="main">
+        <h1 class="heading">4. Canvas and SVG tags</h1>
+        <div class="child">
+            <span class="ans">Answer:</span>
+            <div class="canvas">
+                <h2> &#10022; Canvas:-</h2>
+                <p>
+                    &#10149;Canvas is also use to create the graphics.  <br>
+                    &#10149;Canvas is a raster base graphics. <br>
+                    &#10149;To create canvas you need to learn the basic javascript. <br>
+                    &#10149;Canvas is blur on the zoom because it's use the raster base graphics. <br>
+                    &#10149;Canvas did use pixel. <br>
+                    &#10149;Can create the canvas using 'canvas' tag(using javascript). <br>
+
+                    <span class="ex">Example:-</span>
+            <div class="example">
+                <pre>
+                    &lt;canvas id="can" width="500px" height="250px"&gt;
+                        Canvas isn't work properly
+                    &lt;/canvas&gt;
+                
+                    &lt;script&gt;
+                        var con = document.getElementById('can');
+                        var co = con.getContext('2d');
+                        console.log(co);
+                        co.fillStyle  = '#c90e4c';
+                        co.fillRect(60, 50, 150, 150);
+                    &lt;/script&gt;
+                </pre>
+            </div>
+                <span class="ex" style="margin: 0px 40px;">Output:-</span>
+                <div class="example">
+                <canvas id="can" width="500px" height="250px">
+                    Canvas isn't work properly
+                </canvas>
+            
+                <script>
+                    var con = document.getElementById('can');
+                    var co = con.getContext('2d');
+                    console.log(co);
+                    co.fillStyle  = '#c90e4c';
+                    co.fillRect(60, 50, 150, 150);
+                </script>
+                </div>
+                </p>
+            </div>
+            <hr>
+            <div class="canvas">
+                <h2> &#10022; Svg:-</h2>
+                <p>
+                    &#10149;Svg is stands for the Scalable Vector Graphics <br>
+                    &#10149; is use to create the graphics. <br>
+                    &#10149; is a vector base graphics. <br>
+                    &#10149;To create SVG no need to learn the javascript. <br>
+                    &#10149; isn't blur on the zoom because it's use the vector base graphics. <br>
+                    &#10149; didn't use pixel. <br>
+                    &#10149;Can create the SVG using 'svg' tag. <br>
+
+                    <span class="ex">Example:-</span>
+            <div class="example">
+                <pre>
+            &lt;svg height="500px" width="500px" style="border: 1px solid red;"&gt;
+                 &lt;circle cx="200" cy="200" r="100" fill="lightblue" 
+                 stroke="blue" stroke-width="10"/&gt;
+            &lt;/svg&gt;
+                </pre>
+            </div>
+                <span class="ex" style="margin: 0px 40px;">Output:-</span>
+                <div class="example">
+                    <svg height="400px" width="400px" style="border: 1px solid red;">
+                        <circle cx="200" cy="200" r="100" fill="lightblue" stroke="blue" stroke-width="10"/>
+                    </svg>
+                </div>
+                </p>
+            </div>
+        </div>
+
+    </div>
+    
+</body>
+</html>
