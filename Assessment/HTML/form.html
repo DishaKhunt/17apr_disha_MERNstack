@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    
+    <form action="">
+        <legend><h1>Student Registration Form</h1></legend>
+
+        <label for="fnm">First Name:</label> <br>
+        <input type="text" name="fnm" placeholder="Enter your first name" minlength="3" maxlength="6" required> <br>
+        <br>
+
+        <label for="lnm">Last Name:</label> <br>
+        <input type="text" name="lnm" placeholder="Enter your last name" minlength="3" maxlength="6" required> <br>
+        <br>
+
+        <label for="email">Email:</label><br>
+        <input type="email" name="email" placeholder="is should contain @.." required> <br>
+        <br>
+
+        <label for="pno">Mobile:</label><br>
+        <input type="text" name="pno" placeholder="only 10 digits are allowed" minlength="10"
+        maxlength="10" pattern="[0-9]{10}" required><br>
+        <br>
+
+        <label for="gender">Gender:</label> <br>
+        <input type="radio" name="gender"><label for="male">Male</label> 
+        <input type="radio" name="gender"><label for="femal">Femal</label> <br>
+        <br>
+
+        <label for="dob">Date Of Birth:</label><br>
+        <input type="date" name="dob"><br>
+        <br>
+
+        <label for="add">Address:</label><br>
+        <textarea name="add" id="" cols="30" rows="10"></textarea> <br>
+        <br>
+
+        <label for="city">City:</label><br>
+        <input type="text" name="city"><br>
+        <br>
+
+        <label for="pin">Area PIN:</label><br>
+        <input type="text" name="pin"><br>
+        <br>
+
+        <label for="state">State:</label><br>
+        <input type="text" name="state"><br>
+        <br>
+
+        <label for="select">Qualification:</label><br>
+        <select name="select" id="" required>
+            <option value="">Select Qualification</option>
+            <option value="">B.Tech</option>
+            <option value="">M.Tech</option>
+            <option value="">B.A.</option>
+            <option value="">B.C.A.</option>
+            <option value="">B.E.</option>
+            <option value="">B.B.A.</option>
+        </select> <br>
+        <br>
+
+        <label for="spe">Specialization:</label> <br>
+
+        <input type="checkbox" name="spe">
+        <label for="spe">Computer Science</label> <br>
+
+        <input type="checkbox" name="spe">
+        <label for="spe">Information Technology</label> <br>
+
+        <input type="checkbox" name="spe">
+        <label for="spe">Computer Architecture </label> <br>
+
+        <input type="checkbox" name="spe">
+        <label for="spe">Tele Communication </label> <br>
+        <br>
+
+        <label for="pass">Password:</label><br>
+        <input type="password" name="pass"><br>
+        <br>
+
+        <input type="submit" value="Registered">
+
+    </form>
+</body>
+</html>
