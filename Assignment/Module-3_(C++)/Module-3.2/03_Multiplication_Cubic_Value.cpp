@@ -3,18 +3,23 @@
 #include<iostream>
 using namespace std;
 
+// global variable
+int a;
+int b;
+int n;
+
 class value
 {
 public:
 
     //function to multiplication
-    int multiplication(int a, int b)
+    inline int multiplication(int a, int b)
     {
         return a*b;
     }
 
     //function to cubic
-    int cubic(int n)
+    inline int cubic(int n)
     {
         return n*n*n;
     }
@@ -25,11 +30,23 @@ int main()
     //define Object
     value val;
 
+    cout << "Enter the number of a : ";
+    cin >> a;
+    cout << "Enter the number of b : ";
+    cin >> b;
+    cout << "Enter the number of n : ";
+    cin >> n;
+
+    cout << "\n-----------------------------------------------------------------------------------------\n";
+
     //Multiplication value
-    cout<< "Multiplication : "<<val.multiplication(2,4) <<endl;
+    cout<< "Multiplication of "<< a << " and " << b << " is: " << val.multiplication(a,b) <<endl;
     
     //cubic value
-    cout<< "Cubic value is : "<<val.cubic(3)<<endl;
+    cout<< "Cubic value of "<< n << " is: "<<val.cubic(n)<<endl;
+
+    cout << "\n-----------------------------------------------------------------------------------------\n";
+
 
     return 0;
 

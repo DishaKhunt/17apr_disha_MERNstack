@@ -30,11 +30,11 @@ class Bank_Account
 public :
    
     //Function to assign value
-    int assignValue(string name ,double number, string type , double initialBalance)
+    int assignValue(string name ,double acc_number, string acc_type , double initialBalance)
     {
         depositor_name = name;
-        account = number;
-        account_type = type;
+        account = acc_number;
+        account_type = acc_type;
         balance = initialBalance;
 
         return 0;
@@ -43,9 +43,10 @@ public :
     //Function to deposit an amount
     int deposit(double amount)
     {
+       
         balance += amount;
 
-        cout<<"\nAmount : "<<amount <<".Deposit sucessfully!!!";
+        cout<<"\nAmount : "<<amount <<".Deposit sucessfully!!!\n";
         return 0;
     }
 
@@ -55,11 +56,11 @@ public :
         if(amount <= balance)
         {
             balance -= amount;
-            cout << "\nAmount withdrawn : " << amount;
+            cout << "\nAmount withdrawn : " << amount <<"\n";
         }
         else
         {
-            cout << "\nInsufficient balance. ";
+            cout << "\nInsufficient balance. \n";
         }
         return 0;
     }
@@ -78,19 +79,57 @@ public :
 
 int main()
 {
+    // variable
+    string name;
+    double acc_number;
+    string acc_type;
+    double balance;
+    double d_amount;
+    double w_amount;
+
+
+      //input take from the user's
+    cout << "enter the depositor name :- ";
+    cin >> name;
+
+    cout << "enter the account number :- ";
+    cin >> acc_number;
+
+    cout << "enter the which type of account :- ";
+    cin >> acc_type;
+
+    cout << "enter the balance in account :- ";
+    cin >> balance;
+
+    cout << "enter the depoiste amount :- ";
+    cin >> d_amount;
+
+    cout << "enter the withdraw amount :-";
+    cin >> w_amount;
+
+    cout << "\n-----------------------------------------------------------------------------------------\n";
 
     //assign values
-    account.assignValue("Disha"  , 20202024924 , "Saving" , 1000);
-
-    //deposit amount
-    account.deposit(2000);
-
-    //withdraw amount
-    account.withdraw(2300);
-
-    //display Acount details
+    account.assignValue(name  , acc_number , acc_type , balance);
     account.display();
 
+    cout << "\n-----------------------------------------------------------------------------------------\n";
+    
+
+
+    //deposit amount
+    account.deposit(d_amount);
+    account.display();
+
+
+    cout << "\n-----------------------------------------------------------------------------------------\n";
+   
+
+    //withdraw amount
+    account.withdraw(w_amount);
+    account.display();
+
+    cout << "\n-----------------------------------------------------------------------------------------\n";
     return 0;
 
 }
