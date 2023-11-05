@@ -3,72 +3,49 @@
 #include<iostream>
 using namespace std;
 
+ //data member
+    int num1, num2;
+
 class Construct
 {
 
 public:
 
-    //data member
-    int a, b;
     
     //Constructor
-    Construct()
+    Construct() 
     {
-        cout<<"Enter the value of a : ";
-        cin>>a;
-        cout<<"Enter the value of b : ";
-        cin>>b;
+        // addition
+        int add = num1 + num2; 
+        cout << "\n Addition of "<< num1 << " and " << num2 << " is : " << add;
+
+        // substraction
+        int sub = num1 - num2; 
+        cout << "\n  Substraction of "<< num1 << " and " << num2 << " is : " << sub;
+
+        // multiplication
+        int mul = num1 * num2; 
+        cout << "\n  Multiplication of "<< num1 << " and " << num2 << " is : " << mul;
+
+        // divison
+        int div = num1 / num2; 
+        cout << "\n Division of "<< num1 << " and " << num2 << "  is : " << div;
+
     }
     
-    //Function to Addition
-    int Addition()
-    {
-        a+=b;
-        cout<<"\nAddition of value "<<a<<" and"<<b<<" is : "<<a;
-        return 0;
-    }
-
-    //Function to subtraction
-    int Subtraction()
-    {
-        a-=b;
-        cout<<"\nSubtraction of value "<<a<<" and"<<b<<" is : "<<a;
-        return 0;
-    }
-
-    //Function to Multiplication
-    int Multiplication()
-    {
-        a*=b;
-        cout<<"\nMultiplication of value "<<a<<" and"<<b<<" is : "<<a;
-        return 0;
-    }
-
-    //Function to Divison
-    int Division()
-    {
-        a/=b;
-        cout<<"\nDivision of value "<<a<<" and"<<b<<" is : "<<a;
-        return 0;
-    }
 };
 
 int main()
 {
+    //input take from the user's
+    cout<<"enter the firsr number : ";
+    cin>>num1;
+    cout<<"enter the second number : ";
+    cin>>num2;
+
     //define object
     Construct con;
     
-    //Addtion
-    con.Addition();
-
-    //Subtraction
-    con.Subtraction();
-
-    //Multiplication
-    con.Multiplication();
-
-    //Division
-    con.Division();
-
+    
     return 0;
 }
