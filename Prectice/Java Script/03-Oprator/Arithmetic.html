@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../../Images/js.webp" type="image/x-icon">
+    <link rel="stylesheet" href="Arithmetic.css">
+    <title>Arithmetic</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="heading">Arithmetic Operators</h1>
+        <div class="child">
+            <table>
+                <tr>
+                    <th>Operator</th>
+                    <th>Description</th>
+                </tr>
+
+                <tr>
+                    <td>+</td>
+                    <td>Addition</td>
+                </tr>
+
+                <tr>
+                    <td>-</td>
+                    <td>Subtraction</td>
+                </tr>
+
+                <tr>
+                    <td>*</td>
+                    <td>Multiplication</td>
+                </tr>
+
+                <tr>
+                    <td>/</td>
+                    <td>Division</td>
+                </tr>
+
+                <tr>
+                    <td>**</td>
+                    <td>Exponentiation</td>
+                </tr>
+
+                <tr>
+                    <td>%</td>
+                    <td>Modulus</td>
+                </tr>
+
+                <tr>
+                    <td>++</td>
+                    <td>Increment</td>
+                </tr>
+
+                <tr>
+                    <td>--</td>
+                    <td>Decrement</td>
+                </tr>
+            </table>
+
+            <div class="example">
+                First Value:<input type="text" id="inp-1" title="first value" placeholder="Enter the first value....."><br><br>
+                Second Value:<input type="text" id="inp-2" title="second value" placeholder="Enter the second value....."><br><br>
+                Answer: <input type="text" id="ans" title="ans"><br><br>
+
+                <button onclick="add()" type="button" title="Addition">+</button>
+                <button onclick="sub()" type="button" title="Subtraction">-</button>
+                <button onclick="mul()" type="button" title="Multiplication">*</button>
+                <button onclick="div()" type="button" title="Division">/</button>
+                <button onclick="exp()" type="button" title="Exponentiation">**</button>
+                <button onclick="mod()" type="button" title="Modulus">%</button>
+                <button onclick="inc()" type="button" title="Increment">++</button>
+                <button onclick="dec()" type="button" title="Decrement">--</button>
+
+            </div>
+
+            <script src="Arithmetic.js"></script>
+        </div>
+    </div>
+</body>
+
+</html>
