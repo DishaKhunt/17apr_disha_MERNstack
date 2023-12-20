@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.password{
+    border: 2px solid black;
+    height: auto;
+    width: 30%;
+    margin: 10px auto;
+    padding: 10px;
+}
+.next{
+    width: 70px;
+    margin: 20px auto;
+    padding: 10px;
+    font-size: 20px;
+    background-color: rgb(216, 234, 234);
+    text-align: center;
+    border-radius: 10px;
+    font-weight: bold;
+    box-shadow: 2px 2px 10px rgb(55, 134, 134);
+}
+.next a{
+    text-decoration: none;
+    color: rgb(3, 32, 32);
+}
+.next:hover{
+    background-color: rgb(2, 35, 35);
+}
+.next a:hover{
+    color: rgb(169, 207, 207);
+}

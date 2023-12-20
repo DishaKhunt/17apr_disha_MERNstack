@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/Question-6.css">
+    <link rel="stylesheet" href="CSS/style.css">
+    <title>Question-6</title>
+</head>
+<body>
+    <div class="section-1">
+        <h1 class="heading">6. Write the code for adding new elements dynamically?</h1>
+
+        <div class="section-2">
+            <p class="contain">
+                <span class="ans">Answer:-</span> <br>
+                <div class="example">
+                    <div class="js">html</div>
+                     <pre>
+                            &lt;!DOCTYPE html&gt;
+                            &lt;html lang="en"&gt;
+                            &lt;head&gt;
+                                &lt;meta charset="UTF-8"&gt;
+                                &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+                                &lt;link rel="stylesheet" href="CSS/Question-6.css"&gt;
+                                &lt;title&gt;Question-6&gt;/title&gt;
+                            &lt;/head&gt;
+                            &lt;body&gt;
+                            &lt;h2&gt;adding Content&lt;/h2&gt;
+                            &lt;div id="addContent"&gt;
+                                &lt;p>This is an adding paragraph.&lt;/p&gt;
+                            &lt;/div&gt;
+                            &lt;button onclick="addNewParagraph()">Add New Paragraph&lt;/button&gt;
+        
+                            &lt;/body&gt;
+                     </pre>
+                    
+                 </div>
+                <div class="example">
+                    <div class="js">JavaScript</div>
+                     <pre>
+                        function addNewParagraph() {
+   
+                            var newParagraph = document.createElement('p');
+                            newParagraph.textContent = 'This is a new paragraph added dynamically.';
+
+                            var addContent = document.getElementById('addContent');
+                            addContent.appendChild(newParagraph);
+                     }
+                     </pre>
+                    
+                 </div>
+                 <div class="ex">Output:-</div>
+                 <div class="output">
+                    <h2>adding Content</h2>
+                    <div id="addContent">
+                        <p>This is an adding paragraph.</p>
+                    </div>
+                    <button onclick="addNewParagraph()">Add New Paragraph</button>
+
+                   <script>
+                         function addNewParagraph() {
+   
+                                var newParagraph = document.createElement('p');
+                                newParagraph.textContent = 'This is a new paragraph added dynamically.';
+
+                                var addContent = document.getElementById('addContent');
+                                addContent.appendChild(newParagraph);
+
+                         }
+    
+                   </script>
+                 </div>
+            </p>
+        </div>
+    </div>
+    <div class="next"><a href="Question-7.html">Next</a></div>
+</body>
+</html>

@@ -1,0 +1,52 @@
+*{
+    margin: 0px;
+    padding: 0;
+    box-sizing: border-box;
+}
+.marksheet{
+    border: 2px solid black;
+    padding: 10px;
+    margin: 10px auto;
+    width: 50%;
+}
+.marksheet h2,h4{
+    text-align: center;
+    margin: 20px;
+}
+.marksheet .sub{
+    width: 80%;
+    height: auto;
+    margin: auto;
+}
+.marksheet .sub .box{
+    display: flex;
+    padding: 10px;
+    /* border: 1px solid black; */
+}
+.marksheet .sub .box .sub-name{
+    height: auto;
+    width: 50%;
+}
+.marksheet .sub .box .sub-mark{
+    height: auto;
+    width: 50%;
+}
+.marksheet .sub .box .sub-mark input[type=text]{
+    height: auto;
+    width: 100%;
+}
+.marksheet .sub .box .result input[type=button]{
+    padding: 5px 20px;
+}
+.marksheet .ans{
+    display: flex;
+    width: 80%;
+    margin: 20px auto;
+}
+.marksheet .ans .item{
+    width: 50%;
+    height: auto;
+}
+.marksheet .ans .item span{
+    color: blue;
+}

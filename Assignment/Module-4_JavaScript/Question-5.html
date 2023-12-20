@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/Question-5.css">
+    <link rel="stylesheet" href="CSS/style.css">
+    <title>Question-5</title>
+</head>
+<body>
+    <div class="section-1">
+        <h1 class="heading">5.  What are undeclared and undefined variables?</h1>
+
+        <div class="section-2">
+            <p class="contain">
+                <span class="ans">Answer:-</span> <br>
+                <div class="box">
+                    <h2>1. undeclared variable:</h2>
+        
+                        &#10149;An undeclared variable is a variable that has been used in the code without being declared using a var, let, or const keyword. <br>
+                        &#10149; strict mode in JavaScript, using undeclared variables will result in an error. <br>
+
+                        <span class="ex">Example:-</span>
+                        <div class="example">
+                           <div class="js">JavaScript</div>
+                            <pre>
+                                undeclaredVar = 25;
+                                document.write(undeclaredVar); 
+                            </pre>
+                           
+                        </div>
+                        <div class="ex">Output:-</div>
+                        <div class="output">
+                            <p id="output"></p>
+                          <script>
+                                undeclaredVar = 25;
+                                document.write(undeclaredVar); 
+                          </script>
+                        </div>
+                   
+                </div>
+                <hr>
+                <div class="box">
+                    <h2>2. undefined variable:</h2>
+        
+                        &#10149; An undefined variable is a variable that has been declared but not assigned a value, or it is used before any value is assigned to it. <br>
+                       &#10149; a variable is declared but not initialized, it automatically gets the value undefined by default. <br>
+                        <span class="ex">Example:-</span>
+                        <div class="example">
+                           <div class="js">JavaScript</div>
+                            <pre>
+                                let undefinedVar;
+                                console.log(undefinedVar);
+                            </pre>
+                           
+                        </div>
+                        <div class="ex">Output:-</div>
+                        <div class="output">
+                            <p id="output"></p>
+                          <script>
+                               let undefinedVar;
+                                console.log(undefinedVar);
+                          </script>
+                        </div>
+                   
+                </div>
+
+            </p>
+        </div>
+    </div>
+    <div class="next"><a href="Question-6.html">Next</a></div>
+</body>
+</html>

@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.section-1{
+    background-color: rgb(224, 239, 239);
+    padding: 30px 0px;
+    height: auto;
+    color: rgb(2, 35, 35);
+    width: 100%;
+}
+.section-1 .heading{
+    background: linear-gradient(rgb(169, 207, 207), rgb(70, 128, 128) , rgb(46, 87, 87) , rgb(16, 62, 62));
+    color: rgb(232, 245, 245);
+    text-align: center;
+    font-size: 28px;
+    padding: 5px;
+    text-shadow: 5px 5px 10px black;
+}
+.section-1 .section-2{
+    height: auto;
+    width: 80%;
+    margin: auto;
+}
+.section-2 p{
+    margin: 20px;
+    font-size: 20px;
+}
+.section-2 .ans{
+    font-size: 25px;
+    font-weight: bold;
+    display: inline-block;
+}
+.section-2 .ex{
+    font-size: 25px;
+    font-weight: bold;
+    display: inline-block;
+    padding: 10px 20px;
+}
+.section-1 .section-2 .example,.output{
+    /* border: 1px solid black; */
+    height: auto;
+    width: 80%;
+    margin: 30px auto;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgb(55, 134, 134);
+    background-color: rgb(216, 234, 234);
+}
+.section-1 .section-2 .example pre{
+    font-size: 16px;
+}
+.section-1 .section-2 .output{
+    padding: 20px;
+}
+.section-2 .output button{
+    padding: 10px;
+    background-color: rgb(2, 35, 35);
+    box-shadow: 2px 2px 10px rgb(55, 134, 134);
+    border: none;
+    color: rgb(216, 234, 234);
+    font-size: 15px;
+}
+.section-2 .output input[type=text]{
+    padding: 10px;
+    margin: 0px 10px;
+}
+.js{
+    font-size: 20px; 
+    padding: 10px 50px; 
+    font-weight: bold; 
+    background-color: rgb(46, 87, 87);
+    color: white;
+    border-radius: 10px;
+}
+.next{
+    width: 70px;
+    margin: 20px auto;
+    padding: 10px;
+    font-size: 20px;
+    background-color: rgb(216, 234, 234);
+    text-align: center;
+    border-radius: 10px;
+    font-weight: bold;
+    box-shadow: 2px 2px 10px rgb(55, 134, 134);
+}
+.next a{
+    text-decoration: none;
+    color: rgb(3, 32, 32);
+}
+.next:hover{
+    background-color: rgb(2, 35, 35);
+}
+.next a:hover{
+    color: rgb(169, 207, 207);
+}

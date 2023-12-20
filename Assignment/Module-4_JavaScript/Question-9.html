@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/style.css">
+    <title>Question-9</title>
+</head>
+
+<body>
+    <div class="section-1">
+        <h1 class="heading">9. What are all the looping structures in JavaScript?</h1>
+
+        <div class="section-2">
+            <p class="contain">
+                <span class="ans">Answer:-</span> <br>
+            <div class="box">
+                <h2>1. for loop:</h2>
+                &#10149;Loop through a block of code a number of times. <br>
+                <div class="example">
+                    <div class="js">JavaScript</div>
+                    <pre>
+                            for(let i = 0; i&lt;=10; i++){
+                                document.write(i);
+                            }
+                            
+                         </pre>
+
+                </div>
+                <div class="ex">Output:-</div>
+                <div class="output">
+
+                    <script>
+                        for (let i = 0; i <= 10; i++) {
+                            document.write(i);
+                        }
+                    </script>
+
+                </div>
+            </div>
+            <hr>
+            <div class="box">
+                <h2>2. for in:</h2>
+                &#10149; Loop through a block of code a number of times.  <br>
+                <div class="example">
+                    <div class="js">JavaScript</div>
+                    <pre>
+                      
+                     </pre>
+
+                </div>
+                <div class="ex">Output:-</div>
+                <div class="output">
+
+                    <script>
+                        const fruits = ["apple", "grapes", "mango", "banana"];
+                        const fruits2 = [];
+
+                        for(let index in fruits){
+                            document.write(fruits[index]); 
+                        }
+                    </script>
+
+                </div>
+            </div>
+            <hr>
+            
+        
+            <div class="box">
+                <h2>3. for of:</h2>
+                &#10149; loops through the values of an iterable object. <br>
+                <div class="example">
+                    <div class="js">JavaScript</div>
+                    <pre>
+                        const fruits1 = ["apple", "grapes", "mango", "banana"];
+                        const fruits3 = [];
+
+                        for(let fruit of fruits1){
+                            fruits3.push(fruit.toUpperCase());
+                        }
+                        document.write(fruits3); 
+                    
+                 </pre>
+
+                </div>
+                <div class="ex">Output:-</div>
+                <div class="output">
+
+                    <script>
+                      
+                        const fruits1 = ["apple", "grapes", "mango", "banana"];
+                        const fruits3 = [];
+
+                        for(let fruit of fruits1){
+                            fruits3.push(fruit.toUpperCase());
+                        }
+                        document.write(fruits3); 
+                    </script>
+
+                </div>
+            </div>
+            <hr>
+            <div class="box">
+                <h2>4. while:</h2>
+                &#10149; loops through a block of code while a specified condition is true.<br>
+                <div class="example">
+                    <div class="js">JavaScript</div>
+                    <pre>
+                        let i = 0;
+                        while(i &lt;= 10){
+                            document.write(i);
+                            i++;
+                        }
+                
+             </pre>
+
+                </div>
+                <div class="ex">Output:-</div>
+                <div class="output">
+
+                    <script>
+                        let i = 0;
+                        while(i <= 10){
+                            document.write(i);
+                            i++;
+                        }
+                    </script>
+
+                </div>
+            </div>
+            <hr>
+            <div class="box">
+                <h2>5. do while:</h2>
+                &#10149;also loops through a block of code while a specified condition is true<br>
+                <div class="example">
+                    <div class="js">JavaScript</div>
+                    <pre>
+                        let j = 0;
+                        do{
+                           document.write(i);
+                            j++;
+                        }while(j &lt;=10);
+             </pre>
+
+                </div>
+                <div class="ex">Output:-</div>
+                <div class="output">
+
+                    <script>
+                       let j = 0;
+                        do{
+                           document.write(j);
+                            j++;
+                        }while(j <=10);
+                    </script>
+
+                </div>
+            </div>
+            <hr>
+
+            </p>
+        </div>
+  
+    <div class="next"><a href="Question-10.html">Next</a></div>
+</body>
+
+</html>

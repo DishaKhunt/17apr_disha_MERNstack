@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/style.css">
+    <title>Question-13</title>
+</head>
+<body>
+    <div class="section-1">
+        <h1 class="heading">13. What is the use of Void (0)?</h1>
+
+        <div class="section-2">
+            <p class="contain">
+                <span class="ans">Answer:-</span> <br>
+                &#10149; JavaScript void 0 means returning undefined (void) as a primitive value. <br>
+                &#10149;It is used to prevent any side effects caused while inserting an expression in a web page. <br>
+                <span class="ex">Example:-</span>
+                <div class="example">
+                   <div class="js">JavaScript</div>
+                    <pre>
+                        function example() { 
+                            document.getElementById("contain").innerHTML = "Welcome to javascript.."; 
+                        } 
+                    </pre>
+                    
+                </div>
+                <div class="ex">Output:-</div>
+                <div class="output">
+                    <a href="javascript:void(0);" ondblclick="example()"> 
+                        Double click on me </a> 
+                    <p id="contain"> 
+                    </p> 
+                    <script> 
+                        function example() { 
+                            document.getElementById("contain").innerHTML = "Welcome to javascript.."; 
+                        } 
+                    </script>
+                                     
+                </div>
+            </p>
+        </div>
+    </div>
+    <div class="next"><a href="Question-14.html">Next</a></div>
+</body>
+</html>

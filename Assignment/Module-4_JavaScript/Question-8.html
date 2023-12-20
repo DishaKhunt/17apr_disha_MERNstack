@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/style.css">
+    <title>Question-8</title>
+</head>
+<body>
+    <div class="section-1">
+        <h1 class="heading">8. How can the style/class of an element be changed?</h1>
+
+        <div class="section-2">
+            <p class="contain">
+                <span class="ans">Answer:-</span> <br>
+                <div class="example">
+                    <div class="js">JavaScript</div>
+                     <pre>
+                        function changeColor() {
+
+                            var content = document.getElementById("content");
+                            content.style.color = 'red';
+                            content.style.fontSize = '50px';
+                        }
+                     </pre>
+                     
+                 </div>
+                 <div class="ex">Output:-</div>
+                 <div class="output">
+                    <div id="contain">My name is Disha...........</div>
+                    <button onclick="changeColor()">change color</button>
+                    <script>
+                         function changeColor() {
+                            var contain = document.getElementById("contain");
+                            contain.style.color = 'red';
+                            contain.style.fontSize = '50px';
+                        }
+                    </script>
+                     
+                     
+                 </div>
+               
+            </p>
+        </div>
+    </div>
+    <div class="next"><a href="Question-9.html">Next</a></div>
+</body>
+</html>

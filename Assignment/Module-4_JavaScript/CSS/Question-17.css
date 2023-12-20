@@ -1,0 +1,38 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.operator{
+    border: 2px solid black;
+    width: 40%;
+    padding: 10px 20px;
+    margin: 10px auto;
+}
+.operator h2{
+    margin: 20px;
+    text-align: center;
+}
+.operator .btn{
+    width: 50%;
+}
+.operator .box{
+    display: flex;
+}
+.operator .box .num,.inp{
+    width: 50%;
+    margin: 5px;
+}
+.operator .box .inp input[type=text]{
+    padding: 5px;
+}
+.operator .btn button{
+    margin: 5px;
+    padding: 5px 25px;
+    font-size: 20px;
+}
+.operator .ans{
+    width: 50%;
+    padding: 10px;
+}
