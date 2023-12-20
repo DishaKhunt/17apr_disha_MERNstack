@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/Question-2.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <title>Question-2</title>
+</head>
+<body>
+    <div class="section-1">
+        <h1 class="heading">2.How to Apply CSS Using JQuery, How to Add Class and Remove Class in Jquery ,
+            JQuery Animation?
+            </h1>
+
+        <div class="section-2">
+            <p class="contain">
+                <span class="ans">Answer:-</span> <br>
+                <div class="box">
+                    <h3>1.CSS using JQuery</h3>
+                    &#10149;.css() method in jQuery to apply CSS styles to elements. <br>
+                  
+                    <span class="ex">Example:-</span>
+                    <div class="example">
+                       <div class="js">Script</div>
+                        <pre>
+                            $(document).ready(function() {
+    
+                                $('#div').css('background-color', 'red');
+
+                           });
+                            
+                        </pre>
+                       
+                        </div>
+
+                        <div class="ex">Output:-</div>
+                        <div class="output">
+                            <div id="div">This is a div</div>
+                            <script>
+                                $(document).ready(function() {
+    
+                                    $('#div').css('background-color', 'red');
+                                });
+                                
+                            </script>
+                        </div>
+                </div>
+                <hr>
+                <div class="box">
+                    <h3>2. Add Class and Remove Class in Jquery </h3>
+                    &#10149;The addClass() method adds one or more class names to the selected elements. <br>
+                    &#10149;The removeClass() method removes one or more class names from the selected elements.
+                    &#10149; 
+
+                    <span class="ex">Example:-</span>
+                    <div class="example">
+                       <div class="js">Script</div>
+                        <pre>
+                            $(document).ready(function(){
+
+                                $(".add").click(function(){
+                                      $("#example").addClass("color");
+                                }); 
+                                $(".remove").click(function(){
+                                         $("#example").removeClass("color");
+                                });
+                            });
+                 
+                        </pre>
+                       
+                        </div>
+
+                        <div class="ex">Output:-</div>
+                        <div class="output">
+                            <p id="example">This is a paragraph</p>
+                            <button class="add">add</button>
+                            <button class="remove">remove</button>
+                            <script>
+                                    $(document).ready(function(){
+
+                                        $(".add").click(function(){
+                                              $("#example").addClass("color");
+                                        }); 
+                                        $(".remove").click(function(){
+                                                 $("#example").removeClass("color");
+                                        });
+                                    });
+                             
+                                
+                            </script>
+                        </div>
+                </div>
+                <hr>
+                <div class="box">
+                    <h3>3. JQuery Animation </h3>
+                    &#10149;.animate() method to change the width of an element. <br>
+
+                    <span class="ex">Example:-</span>
+                    <div class="example">
+                       <div class="js">Script</div>
+                        <pre>
+                            $(document).ready(function(){
+                                $("#btn1").click(function(){
+                                  $("#box").animate({height: "300px"});
+                                });
+                                $("#btn2").click(function(){
+                                  $("#box").animate({height: "100px"});
+                                });
+                            });
+                        </pre>
+                       
+                        </div>
+
+                        <div class="ex">Output:-</div>
+                        <div class="output">
+                            <button id="btn1">Animate height</button>
+                            <button id="btn2">Reset height</button>
+
+                            <div id="box" style="background:red;height:100px;width:100px;margin:6px;"></div>
+                            <script>
+                             $(document).ready(function(){
+                                $("#btn1").click(function(){
+                                  $("#box").animate({height: "300px"});
+                                });
+                                $("#btn2").click(function(){
+                                  $("#box").animate({height: "100px"});
+                                });
+                            });
+                            </script>
+                        </div>
+                </div>
+
+            </p>
+        </div>
+    </div>
+    <div class="next"><a href="Question-2.html">Next</a></div>
+</body>
+</html>
