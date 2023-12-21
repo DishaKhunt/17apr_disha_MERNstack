@@ -1,9 +1,10 @@
+let submit = document.getElementById('submit');
+submit.addEventListener('click', createElement())
 function createElement(){
-
     let email = document.getElementById('email').value; 
-    let fname = document.getElementById('fname').value;
+    let fname = document.getElementById('fname');
     let lname = document.getElementById('lname').value;
-    let password = document.getElementsByID('password').value;
+    let password = document.getElementById('password');
     let cpassword = document.getElementById('cpassword').value;
 
     
@@ -12,11 +13,12 @@ function createElement(){
     var passwordRegex = /^(?=.\d)(?=.[a-z])(?=.*[A-Z]).{8,}$/;
 
 
-    if(fname == ""){
+    if(fname.value === ""){
+        console.log("Empty");
         alert("please enter the first name");
         return false;
     }
-    if((fname.length <= 2) || (fname.length > 20)){
+    else if((fname.length <= 2) || (fname.length > 20)){
         alert("user name must be between 2 and 20");
         return false;
     }
