@@ -4,6 +4,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="CSS/Question-3.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        #hero {
+            height: 600px;
+            width: 100%;
+            /* border: 1px solid red; */
+            /* margin: auto; */
+        }
+
+        #hero img {
+            height: 100%;
+            width: 100%;
+        }
+    </style>
     <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
     <script src="https://malsup.github.io/jquery.cycle.all.js"></script>
     <script>
@@ -12,134 +31,22 @@
         });
     </script>
 
+    
+
     <title>Question-3</title>
 </head>
 <body>
-    <div class="section-1">
-        <h1 class="heading">3.How to create slider with animation?</h1>
-
-        <div class="section-2">
-            <p class="contain">
-                <span class="ans">Answer:-</span> <br>
-            <div class="box">
-                <h2>1. slide Down:</h2>
-                &#10149; The jQuery slideDown() method is used to slide down an element. <br>
-                <span class="ex">Example:-</span>
-                    <div class="example">
-                       <div class="js">Script</div>
-                        <pre>
-                            $(document).ready(function(){
-                                $('.down').click(function(){
-                                    // $('.div1').slideDown();
-                                    // $('.div1').slideDown('fast');
-                                    // $('.div1').slideDown('slow');
-                                    $('.div1').slideDown(1000);
-                                });
-                            });
-                        </pre>
-                       
-                        </div>
-
-                        <div class="ex">Output:-</div>
-                        <div class="output">
-                            <div class="div1"  style="display: none;">
-                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellat vero perferendis ratione ducimus eius itaque adipisci, voluptate rerum beatae officiis deleniti totam exercitationem? Inventore aspernatur nisi rem, repellat cum autem. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis distinctio repellat voluptas placeat sit temporibus sapiente cum voluptatibus impedit atque illum ducimus omnis suscipit reprehenderit, minus veritatis eius, a quia.
-                            </div>
-                            <button class="down">Show Down</button>
-                            <script>
-                             $(document).ready(function(){
-                                $('.down').click(function(){
-                                    // $('.div1').slideDown();
-                                    // $('.div1').slideDown('fast');
-                                    // $('.div1').slideDown('slow');
-                                    $('.div1').slideDown(1000);
-                                });
-                            });
-                            </script>
-                            
-                        </div>
-                    </div>
-                    <hr>
-
-                    <div class="box">
-                        <h2>2. slide Up:</h2>
-                        &#10149; The jQuery slideUp() method is used to slide up an element. <br>
-                        <span class="ex">Example:-</span>
-                            <div class="example">
-                               <div class="js">Script</div>
-                                <pre>
-                                    $(document).ready(function(){
-                                        $('.up').click(function(){
-                                            // $('.div2').slideUp();
-                                            // $('.div2').slideUp('fast');
-                                            // $('.div2').slideUp('slow');
-                                            $('.div2').slideUp(1000);
-                                        });
-                                    });
-                                </pre>
-                               
-                                </div>
-        
-                                <div class="ex">Output:-</div>
-                                <div class="output">
-                                    <div class="div2">
-                                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellat vero perferendis ratione ducimus eius itaque adipisci, voluptate rerum beatae officiis deleniti totam exercitationem? Inventore aspernatur nisi rem, repellat cum autem. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis distinctio repellat voluptas placeat sit temporibus sapiente cum voluptatibus impedit atque illum ducimus omnis suscipit reprehenderit, minus veritatis eius, a quia.
-                                    </div>
-                                    <button class="up">Show Up</button>
-                                    <script>
-                                     $(document).ready(function(){
-                                        $('.up').click(function(){
-                                            // $('.div2').slideUp();
-                                            // $('.div2').slideUp('fast');
-                                            // $('.div2').slideUp('slow');
-                                            $('.div2').slideUp(1000);
-                                        });
-                                    });
-                                    </script>
-                                    
-                                </div>
-                            </div>
-                            <hr>
-
-                            <div class="box">
-                                <h2>3. slide toggle:</h2>
-                                &#10149; The jQuery sildToggle() method is used to slide down and slide up the element. <br>
-                                <span class="ex">Example:-</span>
-                                    <div class="example">
-                                       <div class="js">Script</div>
-                                        <pre>
-                                            $(document).ready(function(){
-                                                $('.toggle').click(function(){
-                                                    // $('.div3').slideToggle();
-                                                    // $('.div3').slideToggle('fast');
-                                                    // $('.div3').slideToggle('slow');
-                                                    $('.div3').slideToggle(1000);
-                                                });
-                                            });
-                                        </pre>
-                                       
-                                        </div>
-                
-                                        <div class="ex">Output:-</div>
-                                        <div class="output">
-                                            <div class="div3">
-                                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellat vero perferendis ratione ducimus eius itaque adipisci, voluptate rerum beatae officiis deleniti totam exercitationem? Inventore aspernatur nisi rem, repellat cum autem. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis distinctio repellat voluptas placeat sit temporibus sapiente cum voluptatibus impedit atque illum ducimus omnis suscipit reprehenderit, minus veritatis eius, a quia.
-                                            </div>
-                                            <button class="toggle">Show toggle</button>
-                                            <script>
-                                             $(document).ready(function(){
-                                                $('.toggle').click(function(){
-                                                    // $('.div3').slideToggle();
-                                                    // $('.div3').slideToggle('fast');
-                                                    // $('.div3').slideToggle('slow');
-                                                    $('.div3').slideToggle(1000);
-                                                });
-                                            });
-                                            </script>
-                                            
-                                        </div>
-                                    </div>
-            </p>
-        </div>
+    <div id="hero">
+        <img src="https://p.w3layouts.com/demos_new/template_demo/20-06-2017/elite_shoppy-demo_Free/1660570665/web/images/banner1.jpg"
+            alt="">
+        <img src="https://p.w3layouts.com/demos_new/template_demo/20-06-2017/elite_shoppy-demo_Free/1660570665/web/images/banner2.jpg"
+            alt="">
+        <img src="https://p.w3layouts.com/demos_new/template_demo/20-06-2017/elite_shoppy-demo_Free/1660570665/web/images/banner3.jpg"
+            alt="">
+        <img src="https://p.w3layouts.com/demos_new/template_demo/20-06-2017/elite_shoppy-demo_Free/1660570665/web/images/banner4.jpg"
+            alt="">
+        <img src="https://p.w3layouts.com/demos_new/template_demo/20-06-2017/elite_shoppy-demo_Free/1660570665/web/images/banner5.jpg"
+            alt="">
+    </div>
 </body>
 </html>

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Question-4</title>
+    <style>
+        *{
+            border: 1px solid lightgray;
+            color: lightgray;
+            margin: 7px;
+        }
+        li{
+            list-style: none;
+        }
+        span{
+            display: block;
+
+        }
+    </style>
+</head>
+<body>
+    body(great great grand parent)
+    <div>
+        div(great grand parent)
+        <ul>
+            Ul(grand parent)
+            <li>
+                Li(direct parent)
+                <span>Span</span>
+            </li>
+        </ul>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $('span').parents().css({
+                'border': '3px solid red',
+                'color': 'red'
+            })
+        });
+    </script>
+
+</body>
+</html>
