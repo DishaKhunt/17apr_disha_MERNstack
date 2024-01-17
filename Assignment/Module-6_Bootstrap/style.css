@@ -1,0 +1,12 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+.container-fluid{
+   background:  #fae4fd;;
+}
+.container-fluid h2{
+   background: linear-gradient(#e8bdee, #ad6ab5, #57245e, #45134b);
+   color: #fae4fd;
+}
