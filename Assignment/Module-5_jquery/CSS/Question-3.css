@@ -73,15 +73,9 @@
     color: white;
     border-radius: 10px;
 }
-
-#hero {
-    height: 400px;
-    width: 80%;
-    /* border: 1px solid red; */
-    /* margin: auto; */
-}
-
-#hero img {
-    height: 100%;
-    width: 100%;
+#div1{
+    background:rgb(2, 35, 35);
+    height:100px;
+    width:100px;
+    position:absolute;
 }
