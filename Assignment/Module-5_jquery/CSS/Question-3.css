@@ -79,3 +79,23 @@
     width:100px;
     position:absolute;
 }
+.div{
+    height: auto;
+    width: 100%;
+    position: relative;
+}
+#img1 {
+    position: absolute;
+    left: 0;
+    transition: left 4.5s ease-in-out; 
+}
+#img2{
+    position: absolute;
+    left: 0; 
+    transition: left 2.0s ease-in-out; 
+}
+#img3{
+    position: absolute;
+    left: 0; 
+    transition: left 0.2s ease-in-out;
+}
