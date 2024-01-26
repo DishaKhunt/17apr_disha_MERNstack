@@ -4,9 +4,18 @@
    box-sizing: border-box;
 }
 .container-fluid{
-   background:  #fae4fd;;
+   background:  #fae4fd;
 }
 .container-fluid h2{
    background: linear-gradient(#e8bdee, #ad6ab5, #57245e, #45134b);
    color: #fae4fd;
+}
+.container-fluid .btn1{
+   background-color: #45134b;
+}
+.btn1 a{
+   color: white;
+}
+.btn1:hover a{
+   color: #45134b;
 }
