@@ -1,0 +1,81 @@
+/*  */
+.container .recent-news .news .btn{
+    display: flex;
+    flex-direction: row-reverse;
+}
+.container .recent-news .news .btn .read-btn{
+    padding: 10px 15px;
+    border-radius: 4px;
+    background: linear-gradient(#86bed5, #3094bc, #20627c);
+    color: white;
+    border-style: none;
+    font-style: italic;
+}
+/* flex-container-2 */
+.flex-container-2{
+    width: 65%;
+    padding: 30px;
+    font-family: 'Roboto', sans-serif;
+}
+/* aircraft-container */
+.flex-container-2 .aircraft-container h1{
+    font-style: italic;
+}
+.flex-container-2 .aircraft-container{
+    width: 80%;
+    margin: 30px auto;
+   
+}
+/* sales part */
+.flex-container-2 .sales-container .sales-part{
+    display: flex;
+    margin: 20px auto;
+    height: auto;
+    column-gap: 30px;
+}
+/* sales img */
+.flex-container-2 .sales-container .sales-part .sales-img{
+    width: 100%;
+    height: 100px;
+}
+/* sales-list */
+.flex-container-2 .sales-container .sales-list{
+    display: flex;
+}
+.flex-container-2 .sales-container .sales-list .sales-item{
+    margin: 20px;
+}
+.flex-container-2 .sales-container .sales-list .sales-item li{
+    color: #20627c;
+    padding: 3px 0px;
+}
+.flex-container-2 .sales-container .sales-list .sales-item li a{
+    color: #20627c;
+}
+.flex-container-2 .sales-container .sale-btn{
+    display: flex;
+    flex-direction: row-reverse;
+}
+.flex-container-2 .sales-container .sale-btn .btn{
+    padding: 10px 15px;
+    border-radius: 4px;
+    background: linear-gradient(rgb(67, 67, 67), rgb(51, 51, 51), rgb(39, 38, 38), rgb(22, 22, 22));
+    color: white;
+    border-style: none;
+    font-style: italic;
+}
+.flex-container-2 .sales-container .sale-btn .btn a{
+    text-decoration: none;
+    color: white;
+}
+/* managment part */
+.flex-container-2 .manage-container .manage-part{
+    display: flex;
+    margin: 20px auto;
+    height: auto;
+    column-gap: 30px;
+}
+.flex-container-2 .manage-container .manage-part .manage-img{
+    width: 100%;
+    height: 100px;
+}

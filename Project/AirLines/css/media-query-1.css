@@ -1,0 +1,48 @@
+@media (max-width:1370px) and (min-width:775px) {
+
+    /* navabr */
+    .navbar .nav-menu ul li{
+        width: 18%;
+    }
+   #carousel .order{
+    height: auto;
+    width: 30%;
+    }
+    /* order-btn */
+    #carousel .order .order-btn{
+    padding: 5px;
+    }
+    /* flight-planner */
+    .container .flex-container-1 .flight-planner{
+        width: 80%;
+    }
+    /* recent-news */
+    .container .flex-container-1 .recent-news{
+        width: 80%;
+    }
+    /* welcome-container */
+    .container .flex-container-2 .welcome-container{
+        width: 85%;
+    }
+    /* clients-container */
+    .container .flex-container-2 .clients-container{
+        width: 85%;
+        column-gap: 20px;
+    }
+    .flex-container-2 .clients-container .box-2{
+        width: 40%;
+    }
+    .flex-container-2 .clients-container .box-2 p{
+        margin-top: 20px;
+        margin-left: 15px;
+        color: white;
+    }
+    /* footer */
+    footer .footer-link .lf{
+       float: none;
+    }
+    footer .footer-link .rf{
+        float: none;
+     }
+   
+}

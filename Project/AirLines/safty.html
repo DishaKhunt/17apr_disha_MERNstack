@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- css link -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/safty.css">
+    <link rel="stylesheet" href="css/media-query-1.css">
+    <link rel="stylesheet" href="css/media-query-2.css">
+
+    <!-- font link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,300&display=swap" rel="stylesheet">
+
+    <!-- fontawsome cdn link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <title>Airline</title>
+</head>
+<body>
+    <!-- header  Start-->
+    <section id="container-header">
+        <div class="header">
+            <!-- logo -->
+            <div class="logo">
+                <img src="./images/AIRLINE.png" alt="">
+            </div>
+         
+            <!-- navbar -->
+            <div class="navbar">
+                <!-- icons -->
+                <div class="social-media">
+                    <div class="icon"><a href="#"><i class="fa-solid fa-house"></i></a></div>
+                    <div class="icon"><a href="#"><i class="fa-regular fa-envelope"></i></a></div>
+                    <div class="icon"><a href="#"><i class="fa-solid fa-plane-departure"></i></a></div>
+                </div>
+                <!-- navbar - menu -->
+                <div class="nav-menu">
+                    <ul>
+                        <li class="home"><a href="index.html">HOME</a></li>
+                        <li><a href="our_aricraft.html">OUR AIRCRAFT</a></li>
+                        <li><a href="safty.html">SAFTY</a></li>
+                        <li><a href="charters.html">CHARTERS</a></li>
+                        <li><a href="contacts.html">CONTACTS</a></li>
+                    </ul>
+                </div>
+                <div class="nav-slidemenu">
+                    <i class="fa-solid fa-bars" style="color: #ffffff;"></i>
+                    <ul>
+                        <li class="home"><a href="index.html">HOME</a></li>
+                        <li><a href="our_aricraft.html">OUR AIRCRAFT</a></li>
+                        <li><a href="safty.html">SAFTY</a></li>
+                        <li><a href="charters.html">CHARTERS</a></li>
+                        <li><a href="contacts.html">CONTACTS</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- header End -->
+
+    <!-- carousel start -->
+    <section id="carousel">
+        <!-- carousel img -->
+        <div class="carousel-img"></div>
+      
+        <!-- carousel title -->
+        <div class="carousel-header">
+            <h1>COMFORT</h1>
+            <span> Guaranteed </span>
+
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa numquam voluptatibus quam veniam officiis a aperiam. Laboriosam aperiam nihil omnis?</p>
+        </div>
+
+        <div class="order">
+           <button class="order-btn">
+            <span>ORDER TICKET ONLINE</span>
+            <i class="fa-solid fa-greater-than"></i>
+           </button>
+        </div>
+    </section>
+    <!-- carousol end -->
+
+    <!-- container Start -->
+  <section class="container">
+
+        <div class="flex-container-1">
+            <!-- fighter planner start -->
+            <div class="flight-planner">
+                <h1>Your Flight Planner</h1>
+                <!-- trip way -->
+                <div class="radio-btn">
+                    <div class="item  item-1">
+                        <input type="radio"> 
+                        <label for="trip">Round trip</label>
+                    </div>
+                    <div class="item  item-2">
+                        <input type="radio"> 
+                        <label for="trip">Empty-Leg</label>
+                    </div>
+                    <div class="item item-3">
+                        <input type="radio"> 
+                        <label for="trip">One way</label>
+                    </div>
+                    <div class="item item-4">
+                        <input type="radio"> 
+                        <label for="trip">Multi-Leg</label>
+                    </div>
+                </div>
+                <!-- ticket book location -->
+                <div class="ticket-details">
+                    <div class="input-group">
+                        <label for="from">Leaving From:</label> <br>
+                        <input type="text" placeholder="Enter City or Airport Code ">
+                        <br>
+                    </div>
+                  
+                    <div class="input-group">
+                        <label for="to">Going To:</label>
+                        <br>
+                        <input type="text" placeholder="Enter City or Airport Code">    
+                    </div>
+                 
+                    <div class="input-group">
+                        <label for="date-time">Departure Date and Time:</label> 
+                        <br>
+                        <input type="date" >
+                        <input type="time">
+                        <br>
+                    </div>
+
+                    <div class="input-group">
+                        <label for="date-time">Return Date and Time:</label> 
+                        <br>
+                        <input type="date" >
+                        <input type="time">
+                        <br>
+                    </div>
+
+                    <div class="input-group">
+                        <label for="passenger">Passengers(s):</label>
+                        <br>
+                        <input type="text" id="pass" placeholder="#passengers">
+                    </div>
+                    
+                    <button>GO!</button>
+                </div>
+        
+            </div>
+             <!-- fighter planner end -->
+
+               <!-- safety expert start -->
+            <div class="recent-news">
+                <h1>Safety Experts</h1>
+                <div class="news">
+                    <p>
+                       <b> Temporibus autem</b> quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis.
+                    </p>
+                    
+                    <div class="btn">
+                       <button class="read-btn">READ MORE</button>
+                    </div>
+                </div>
+            </div>
+            <!--  safety expert news end -->
+            
+        </div>
+        <div class="flex-container-2">
+            <!-- safety about start -->
+           <div class="safety-container about">
+            <h1>About Safety</h1>
+            <div class="safety-about">
+                <div class="safety-about-img">
+                    <img src="images/safety-1.jpg" alt="" height="100%" width="100%">
+                </div>
+                <div class="safety-about-content">
+                    <p>
+                        <b>At vero eos et accusamus</b> et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga quod maxime.
+                    </p>
+                </div>
+            </div>
+            <div class="safety-about">
+                <div class="safety-about-img">
+                    <img src="images/safety-2.jpg" alt="" height="100%" width="100%">
+                </div>
+                <div class="safety-about-content">
+                    <p> 
+                        <b>Et harum quidem rerum </b>facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut.
+                    </p>
+                </div>
+            </div>
+            <div class="safety-btn">
+                <button class="btn"><a href="#">READ MORE</a></button>
+            </div>
+           </div>
+             <!-- safety about end -->
+
+             <!-- safety program start -->
+           <div class="safety-container">
+             <h1>safety programs</h1>
+             <div class="safety-program-content">
+                <p>
+                    Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus omnis assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum:
+                </p>
+             </div>
+             <div class="safety-list">
+                <ul class="safety-item">
+                    <li>
+                        <a href="#">Lipsum quia dolor amet consectetur</a>
+                    </li>
+                    <li>
+                        <a href="#">Vdipisci velit, sed quia non numquam</a>
+                    </li>
+                    <li>
+                        <a href="#">Dius modi tempora incidunt</a>
+                    </li>
+                    <li>
+                        <a href="#">Uliquam quaerat voluptatem enim</a>
+                    </li>
+                </ul>
+                <ul class="safety-item">
+                    <li>
+                        <a href="#">Quis nostrum exercitationem</a>
+                    </li>
+                    <li>
+                        <a href="#">Quis autem vel eum iure reprehender</a>
+                    </li>
+                    <li>
+                        <a href="#">Ullam corporis suscipit laboriosam</a>
+                    </li>
+                    <li>
+                        <a href="#">Nisi ut aliquid ex commodi</a>
+                    </li>
+                </ul>
+            </div>
+           </div>
+            <!-- safety program end -->
+        </div>
+    </section>
+        <!-- container End -->
+
+        <!-- Footer Start -->
+        <footer>
+            <div class="footer-link">
+
+                <p class="lf">
+                    Copyright © 2010 <a href="">Domain Name</a> - All Rights ReservedFree CSS Templates by TemplateMonster
+                </p>
+                <p class="rf">
+                    <a href="#">Free CSS Template</a> By
+                    <a href="#">TempateMonster</a>
+                </p>
+            </div>
+        </footer>
+        <!-- Footer End -->
+  
+</body>
+</html>

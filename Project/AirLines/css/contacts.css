@@ -1,0 +1,85 @@
+/* flex-container-1 */
+.container .flex-container-1{
+    height: auto;
+    width: 35%;
+    background-color: #e6e6e6;
+    /* border: 1px solid black; */
+    padding: 10px; 
+}
+/* contact-us */
+.container .flex-container-1 .contact-us{
+    width: 70%;
+    height: auto;
+    margin: 20px auto;
+    padding: 10px 0px;
+    font-family: 'Roboto', sans-serif;
+    /* border: 1px solid black; */
+}
+.container .flex-container-1 .contact-us h1{
+    font-style: italic;
+}
+.contact-us .contact-us-container{
+    display: flex;
+    margin-top: 20px;
+}
+.contact-us .contact-us-container .contact-us-list{
+    list-style: none;
+}
+/* miscellaneous-info */
+.container .flex-container-1 .Miscellaneous-info{
+    width: 70%;
+    height: auto;
+    margin: 30px auto;
+    padding: 10px 0px;
+    font-family: 'Roboto', sans-serif;
+}
+.container .flex-container-1 .Miscellaneous-info h1{
+    font-style: italic;
+}
+.container .flex-container-2{
+    padding: 10px;
+    width: 65%;
+    height: auto;
+ }
+ .container .flex-container-2 .contact-form{
+    /* border: 1px solid black; */
+    margin: 30px auto;
+    font-family: 'Roboto', sans-serif;
+    width: 80%;
+}
+.container .flex-container-2 .contact-form h1{
+    font-style: italic;
+}
+/* input-group */
+.container .flex-container-2 .contact-form .input-group{
+    display: flex;
+    margin-top: 10px;
+}
+.flex-container-2 .contact-form .input-group .form-label{
+    width: 20%;
+}
+.flex-container-2 .contact-form .input-group .form-input{
+    width: 80%;
+}
+.flex-container-2 .contact-form .input-group .form-input input,textarea{
+    width: 100%;
+    padding: 3px;
+}
+.flex-container-2 .contact-form .btn{
+    display: flex;
+    flex-direction: row-reverse;
+    margin-top: 30px;
+}
+/* reset-btn */
+.flex-container-2 .contact-form .btn .submit-btn,.reset-btn {
+    padding: 10px 20px;
+    color: white;
+    font-style: italic;
+    background: linear-gradient(rgb(67, 67, 67), rgb(51, 51, 51), rgb(39, 38, 38), rgb(22, 22, 22));
+    border-radius: 4px;
+    border-style: none;
+}
+/* submit-btn */
+.flex-container-2 .contact-form .btn .submit-btn{
+    margin-left: 20px;
+}

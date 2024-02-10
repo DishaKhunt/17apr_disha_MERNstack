@@ -1,0 +1,82 @@
+/* charter-benefits */
+.flex-container-1 .charter-benefits{
+    height:  auto;
+    width: 70%;
+    margin: 40px auto;
+    font-family: 'Roboto', sans-serif;
+    /* border: 1px solid black; */
+}
+.flex-container-1 .charter-benefits h1{
+    font-style: italic;
+}
+.flex-container-1 .charter-benefits .benefits{
+    height: auto;
+    width: 100%;
+    margin: 10px auto;
+}
+/* charter-list */
+.flex-container-1 .charter-benefits .benefits .charter-list{
+    padding: 15px;
+}
+.charter-benefits .benefits .charter-list li{
+    color: #20627c;
+}
+.charter-benefits .benefits .charter-list li a{
+    color: #20627c;
+}
+.container .charter-benefits .benefits .btn{
+    display: flex;
+    flex-direction: row-reverse;
+}
+.container .charter-benefits .benefits .btn .read-btn{
+    padding: 10px 15px;
+    border-radius: 4px;
+    background: linear-gradient(#86bed5, #3094bc, #20627c);
+    color: white;
+    border-style: none;
+    font-style: italic;
+}
+/* flex-container-2 start */
+.flex-container-2{
+    width: 65%;
+    padding: 30px;
+    font-family: 'Roboto', sans-serif;
+}
+/* charter-container */
+.flex-container-2 .charter-container h1{
+    font-style: italic;
+}
+.flex-container-2 .charter-container{
+    width: 80%;
+    margin: 30px auto;
+}
+/* charter-service */
+.flex-container-2 .charter-container .charter-service{
+    display: flex;
+    column-gap: 30px;
+    margin-top: 20px;
+}
+/* service-list */
+.flex-container-2 .charter-container .charter-service .service-list{
+    margin-top: 20px;
+    color: #20627c;
+}
+.charter-container .charter-service .service-list li a{
+    color: #20627c;
+}
+.flex-container-2 .charter-container .service-btn{
+    display: flex;
+    flex-direction: row-reverse;
+}
+.flex-container-2 .charter-container .service-btn .btn{
+    padding: 10px 15px;
+    border-radius: 4px;
+    background: linear-gradient(rgb(67, 67, 67), rgb(51, 51, 51), rgb(39, 38, 38), rgb(22, 22, 22));
+    color: white;
+    border-style: none;
+    font-style: italic;
+}
+.flex-container-2 .charter-container .service-btn .btn a{
+    text-decoration: none;
+    color: white;
+}

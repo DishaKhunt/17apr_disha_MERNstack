@@ -1,0 +1,105 @@
+@media (max-width:775px) and (min-width:200px) {
+
+    /* navabar */
+
+    .navbar .nav-menu{
+        display: none;
+    }
+   
+    .navbar .nav-slidemenu{
+        display: block;
+    }
+
+    /* logo */
+    .header .logo{
+        width: 30%;
+        padding: 5px;
+        margin: auto;
+        height: 100px;
+    }
+    .header .logo img{
+        height: 100%;
+        width: 100%;
+    }
+    
+    /* carousel */
+    #carousel .carousel-header{
+        width: 80%;
+        margin: 30px;
+    }
+    #carousel .order{
+        height: auto;
+        top: 320px;
+        left: 30px;
+        width: 80%;
+    }
+    #carousel .order .order-btn{
+        padding: 5px;
+    }
+    .container{
+        display: block;
+    }
+    /* flex-container-1 */
+    .container .flex-container-1{
+        height: auto;
+        width: 100%;
+       
+    }
+    /* flex-container-2 */
+    .container .flex-container-2{
+      
+         width: 100%;
+         height: auto;
+        
+    }
+    /* client-container */
+    .container .flex-container-2 .clients-container{
+        display: block;
+    }
+    .container .flex-container-2 .clients-container .box-1{
+        width: 100%;
+    }
+    .container .flex-container-2 .clients-container .box-2{
+        width: 100%;
+        margin-top: 20px;
+    }
+    /* aircraft */
+    .flex-container-2 .sales-container .sales-part{
+        display: block;
+    }
+    .flex-container-2 .sales-container .sales-list{
+        display: block;
+    }
+    .flex-container-2 .manage-container .manage-part{
+        display: block;
+    }
+    /* safety */
+    .flex-container-2 .safety-container .safety-about{
+        display: block;
+    }
+    .flex-container-2 .safety-container .safety-about .safety-about-img{
+        width: 100%;
+        height: 100%;
+    }
+    .flex-container-2 .safety-container .safety-list{
+        display: block;
+    }
+    /* charter */
+    .flex-container-2 .charter-container .charter-service{
+        display: block;
+        /* border: 1px solid black; */
+    }
+    .charter-container .charter-service .service-list{
+        margin: 20px;
+    }
+    /* footer */
+     footer .footer-link{
+        width: 100%;
+    }
+    footer .footer-link .lf{
+        float: none;
+     }
+    footer .footer-link .rf{
+         float: none;
+    }
+}
