@@ -1,0 +1,22 @@
+.form-container{
+    width: 40%;
+    height: auto;
+    padding: 50px;
+    margin: 10px auto;
+    background: white;
+    border-radius: 50px;
+    color: black;
+    box-shadow: 0px 0px 10px rgb(135, 11, 11);
+}
+
+.form-container .btn{
+    background-color: rgb(216, 78, 106);
+    color: white;
+    padding: 5px 110px;
+    margin: 10px 8px;
+}
+.fontAwesome {
+    font-family: 'Helvetica', FontAwesome, sans-serif;
+    color: black;
+    margin-right: 10px;
+  }

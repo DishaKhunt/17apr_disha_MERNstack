@@ -1,0 +1,35 @@
+.container .ans-container .index{
+    width: 80%;
+    height: 350px;
+    padding: 20px;
+    margin: 10px auto;
+    position: relative;
+    background-color: lightgray;
+    /* border: 1px solid black; */
+}
+.container .ans-container .index .box{
+    height: 200px;
+    width: 200px;
+    color: white;
+}
+.container .ans-container .index .box-1{
+    background: rgb(7, 96, 118);
+    position: absolute;
+    left: 50px;
+    top: 30px;
+}
+.container .ans-container .index .box-2{
+    background: rgb(228, 35, 5);
+    position: absolute;
+    left: 80px;
+    top: 60px;
+    z-index: 1;
+}
+
+.container .ans-container .index .box-3{
+    background: rgb(101, 4, 137);
+    position: absolute;
+    left: 110px;
+    top: 90px;
+    z-index: 2;
+}
