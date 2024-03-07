@@ -1,0 +1,113 @@
+@import url('font-face.css');
+*{
+    padding: 0;
+    margin: 0;
+    /* overflow-x: hidden; */
+    box-sizing: border-box;
+}
+#header{
+    height: auto;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    padding: 5px;
+}
+#header .logo{
+    height: auto;
+    width: 30%;
+    color: white;
+    padding: 10px;
+   
+}
+.logo span{
+    font-family: "yellow-ginger";
+    font-size: 25px;
+}
+#header .search-box{
+    width:55%;
+    height: auto;
+    padding: 12px !important;
+}
+#header .search-box input[type="text"] 
+{
+    width: 80%;
+    height: auto;
+    padding: 10px;
+
+}
+#header .social-media{
+    width: 15%;
+    height: auto;
+    padding: 18px;
+}
+#header .social-media span{
+    color: white;
+    font-size: 20px;
+    padding: 5px;
+}
+#nav{
+    background-color: white;
+    padding: 10px;
+    height: auto;
+    width: 100%;
+    display: flex;
+}
+#nav .nav-menu{
+    text-align: center;
+    width: 80%;
+    height: auto;
+}
+#nav .nav-menu ul{
+    padding: 10px;
+}
+#nav .nav-menu li{
+    display: inline;
+    padding: 20px;
+    font-size: 18px;
+}
+#nav .nav-icon{
+    width: 20%;
+    height: auto;
+    display: flex;
+}
+#nav .nav-icon .icon .icon-logo a{
+    font-size: 18px;
+    color: black;
+}
+#nav .nav-icon .icon{
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    text-align: center;
+    width: 25%;
+    /* border: 1px solid black; */
+}
+#nav .nav-icon .icon .icon-name{
+    font-size: 14px;
+}
+#banner{
+    height: auto;
+    width: 100%;
+}
+.banner-img{
+    width: 100% !important;
+    height: 600px !important;
+}
+#banner .banner-img img{
+    height: 100%;
+    width: 100%;
+}
+#nav .nav-menu .men-list{
+    position: relative;
+}
+#nav .nav-menu .menu-list{
+    position: absolute;
+    left: 0px;
+    top: 20px;
+}
+#nav .nav-menu .menu-list ul li{
+    display: none;
+}
+#nav .nav-menu .men-list:hover .menu-list{
+    display: block;
+}

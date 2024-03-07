@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- css link -->
+    <link rel="stylesheet" href="CSS/avjMarks.css">
+    <title>avg Marks</title>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h2>Subject Marksheet</h2>
+
+        <div class="subject">
+            <div class="box">
+                <div class="sub-name">1. Maths</div>
+                <div class="sub-mark"><input type="text" id="maths"></div>
+            </div>
+            <div class="box">
+                <div class="sub-name">2. Physics</div>
+                <div class="sub-mark"><input type="text" id="physics"></div>
+            </div>
+            <div class="box">
+                <div class="sub-name">3. Chemistry</div>
+                <div class="sub-mark"><input type="text" id="chemistry"></div>
+            </div>
+            <div class="box">
+                <div class="sub-name">4. English</div>
+                <div class="sub-mark"><input type="text" id="english"></div>
+            </div>
+            <div class="box">
+                <div class="sub-name">5. Biology</div>
+                <div class="sub-mark"><input type="text" id="biology"></div>
+            </div>
+
+            <div class="box">
+                <button class="btn" onclick="result()">Result</button>
+            </div>
+
+            <div class="ans">
+                <div class="item">
+                    <p> Total is: <span id="total"></span> </p>
+                </div>
+                <div class="item">
+                    <p>Percentage is : <span id="percentage"></span></p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <script src="1-avgMarks.js"></script>
+</body>
+
+</html>
