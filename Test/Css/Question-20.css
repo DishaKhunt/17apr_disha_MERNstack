@@ -1,0 +1,46 @@
+.cal{
+    height: auto;
+    width: 27%;
+    border: 1px solid black;
+    border-radius: 20px;
+    margin: 20px auto;
+    padding: 20px;
+    color: white;
+    background-color: black;
+}
+.cal .btn{
+    padding: 10px;
+}
+.cal .btn button{
+    height: 50px;
+    width: 50px;
+    margin: 5px;
+    color: white;
+    box-shadow: 0px 0px 5px #525967;
+    background-color: #989da8;
+    border-radius: 10px;
+    font-size: 23px;
+    border: none;
+}
+.cal .btn .operator
+{
+    background-color: #cd5f11;
+}
+.cal .btn .number{
+    background-color: #484f5a;
+}
+.cal .input{
+    height: auto;
+    width: 100%;
+}
+input[type="text"] { 
+    padding: 10px; 
+    margin: 10px auto;
+    width: 100%;
+    height: 50px;
+    font-size: 20px; 
+    font-weight: bold; 
+    border: none; 
+    border-radius: 5px; 
+    border: 2px solid black; 
+} 

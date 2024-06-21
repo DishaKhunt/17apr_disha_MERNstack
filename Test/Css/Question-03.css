@@ -1,0 +1,34 @@
+.container .ans-container .navbar{
+    height: auto;
+    width: 100%;
+    margin: 40px auto;
+}
+.container .ans-container .navbar ul{
+    background-color: black;
+    color: white;
+    list-style: none;
+    padding: 10px;
+}
+.container .ans-container .navbar ul li{
+    display: inline;
+    padding: 10px;
+    font-size: 18px;
+}
+.ans-container .navbar ul li a{
+    text-decoration: none;
+    color: white;
+}
+.ans-container .navbar .dropdown .dropdown-content li{
+    display: block;
+}
+.ans-container .navbar .dropdown .dropdown-content{
+    position: absolute;
+    left: -70px;
+    display: none;
+}
+.ans-container .navbar .dropdown{
+    position: relative;
+}
+.ans-container .navbar .dropdown:hover .dropdown-content{
+    display: block;
+}

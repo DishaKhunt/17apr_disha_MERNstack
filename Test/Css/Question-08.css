@@ -1,0 +1,16 @@
+.container .ans-container .rgb{
+    width: 80%;
+    margin: 20px auto;
+    padding: 10px;
+    color: white;
+}
+.container .ans-container .red{
+    background: rgb(255, 0, 0);
+}
+.container .ans-container .blue{
+    background: rgb(0, 0, 255);
+}
+
+.container .ans-container .green{
+    background: rgb(0, 255, 0);
+}

@@ -1,0 +1,7 @@
+.container .ans-container .box-model{
+    margin: 30px;
+    padding: 30px;
+    border: 10px solid green;
+    width: 300px;
+    background: #cee9ce;
+}
