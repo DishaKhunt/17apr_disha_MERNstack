@@ -1,0 +1,49 @@
+.form-control {
+  margin-bottom: 1rem;
+}
+
+.form-control label {
+  font-weight: bold;
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+.form-control input {
+  display: block;
+  width: 100%;
+  font: inherit;
+  line-height: 1.5rem;
+  padding: 0.25rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.form-control.invalid input {
+  border-color: red;
+  background-color: #fbdada;
+}
+
+.form-control.invalid .error-text {
+  color: red;
+}
+
+.form-actions {
+  text-align: right;
+}
+
+.form-actions button {
+  font: inherit;
+  cursor: pointer;
+  background-color: #03beff;
+  border: 1px solid #03beff;
+  color: white;
+  padding: 0.5rem 2rem;
+  border-radius: 4px;
+  margin-top: 1rem;
+}
+
+.form-actions button:disabled {
+  background-color: #ccc;
+  border-color: #ccc;
+  cursor: not-allowed;
+}
