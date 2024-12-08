@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MongoDB vs SQL</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-gray-100 text-gray-800">
+    <div class="max-w-6xl mx-auto px-6 py-10">
+        <!-- Title -->
+        <h1 class="text-3xl font-bold text-center text-blue-600 mb-6">
+            MongoDB vs SQL Databases
+        </h1>
+
+        <!-- Section: Data Model -->
+        <div class="bg-white p-6 rounded-lg shadow-lg mb-6">
+            <h2 class="text-2xl font-semibold text-gray-800 mb-4">1. Data Model</h2>
+            <table class="w-full table-auto border-collapse border border-gray-300 text-left">
+                <thead>
+                    <tr class="bg-gray-200">
+                        <th class="border border-gray-300 px-4 py-2">Feature</th>
+                        <th class="border border-gray-300 px-4 py-2">MongoDB</th>
+                        <th class="border border-gray-300 px-4 py-2">SQL Databases</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="border border-gray-300 px-4 py-2">Type</td>
+                        <td class="border border-gray-300 px-4 py-2">NoSQL (Non-relational)</td>
+                        <td class="border border-gray-300 px-4 py-2">Relational Database (RDBMS)</td>
+                    </tr>
+                    <tr>
+                        <td class="border border-gray-300 px-4 py-2">Structure</td>
+                        <td class="border border-gray-300 px-4 py-2">Document-oriented</td>
+                        <td class="border border-gray-300 px-4 py-2">Table-based</td>
+                    </tr>
+                    <tr>
+                        <td class="border border-gray-300 px-4 py-2">Schema</td>
+                        <td class="border border-gray-300 px-4 py-2">Schema-less</td>
+                        <td class="border border-gray-300 px-4 py-2">Fixed schema</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <!-- Section: Scalability -->
+        <div class="bg-white p-6 rounded-lg shadow-lg mb-6">
+            <h2 class="text-2xl font-semibold text-gray-800 mb-4">2. Scalability</h2>
+            <table class="w-full table-auto border-collapse border border-gray-300 text-left">
+                <thead>
+                    <tr class="bg-gray-200">
+                        <th class="border border-gray-300 px-4 py-2">Feature</th>
+                        <th class="border border-gray-300 px-4 py-2">MongoDB</th>
+                        <th class="border border-gray-300 px-4 py-2">SQL Databases</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="border border-gray-300 px-4 py-2">Scaling</td>
+                        <td class="border border-gray-300 px-4 py-2">Horizontally scalable</td>
+                        <td class="border border-gray-300 px-4 py-2">Vertically scalable</td>
+                    </tr>
+                    <tr>
+                        <td class="border border-gray-300 px-4 py-2">Performance</td>
+                        <td class="border border-gray-300 px-4 py-2">Optimized for unstructured data</td>
+                        <td class="border border-gray-300 px-4 py-2">Better for structured data</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <!-- Section: Use Cases -->
+        <div class="bg-white p-6 rounded-lg shadow-lg">
+            <h2 class="text-2xl font-semibold text-gray-800 mb-4">3. Use Cases</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                <div>
+                    <h3 class="text-xl font-bold text-green-600">MongoDB</h3>
+                    <ul class="list-disc list-inside mt-2 text-gray-600">
+                        <li>Real-time analytics</li>
+                        <li>Big data and IoT applications</li>
+                        <li>Dynamic schemas</li>
+                        <li>Content management systems</li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-xl font-bold text-blue-600">SQL Databases</h3>
+                    <ul class="list-disc list-inside mt-2 text-gray-600">
+                        <li>Financial systems</li>
+                        <li>ERP systems</li>
+                        <li>Transactional applications</li>
+                        <li>Inventory management</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
